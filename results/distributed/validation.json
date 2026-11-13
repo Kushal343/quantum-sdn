@@ -1,0 +1,449 @@
+[
+  {
+    "noise": 0.001,
+    "seed": 0,
+    "result": {
+      "budget": {
+        "protocol": "ideal_single_photon_asymmetric_bb84",
+        "n": 8192,
+        "k": 8192,
+        "test_errors": 2,
+        "qtol": 0.02,
+        "mu": 0.07347449054925051,
+        "phase_bound": 0.09347449054925051,
+        "entropy_term_bits": 4522.294508215409,
+        "reconciliation_cap_bits": 2731,
+        "verification_bits": 40,
+        "extraction_penalty_bits": 100.65784284662087,
+        "epsilon_secrecy": 1e-09,
+        "epsilon_correctness": 1e-12,
+        "epsilon_qkd": 1.0010000000000002e-09,
+        "authentication": "separate computational HMAC assumption",
+        "length": 1690,
+        "parameter_abort": false
+      },
+      "participants": {
+        "alice": {
+          "accepted": true,
+          "length": 1690
+        },
+        "bob": {
+          "accepted": true,
+          "length": 1690
+        }
+      },
+      "keys_match": true,
+      "scope": "Reduced ideal single-photon model; computational authentication; no decoy proof"
+    }
+  },
+  {
+    "noise": 0.001,
+    "seed": 1,
+    "result": {
+      "budget": {
+        "protocol": "ideal_single_photon_asymmetric_bb84",
+        "n": 8192,
+        "k": 8192,
+        "test_errors": 7,
+        "qtol": 0.02,
+        "mu": 0.07347449054925051,
+        "phase_bound": 0.09347449054925051,
+        "entropy_term_bits": 4522.294508215409,
+        "reconciliation_cap_bits": 2731,
+        "verification_bits": 40,
+        "extraction_penalty_bits": 100.65784284662087,
+        "epsilon_secrecy": 1e-09,
+        "epsilon_correctness": 1e-12,
+        "epsilon_qkd": 1.0010000000000002e-09,
+        "authentication": "separate computational HMAC assumption",
+        "length": 1690,
+        "parameter_abort": false
+      },
+      "participants": {
+        "bob": {
+          "accepted": true,
+          "length": 1690
+        },
+        "alice": {
+          "accepted": true,
+          "length": 1690
+        }
+      },
+      "keys_match": true,
+      "scope": "Reduced ideal single-photon model; computational authentication; no decoy proof"
+    }
+  },
+  {
+    "noise": 0.001,
+    "seed": 2,
+    "result": {
+      "budget": {
+        "protocol": "ideal_single_photon_asymmetric_bb84",
+        "n": 8192,
+        "k": 8192,
+        "test_errors": 12,
+        "qtol": 0.02,
+        "mu": 0.07347449054925051,
+        "phase_bound": 0.09347449054925051,
+        "entropy_term_bits": 4522.294508215409,
+        "reconciliation_cap_bits": 2731,
+        "verification_bits": 40,
+        "extraction_penalty_bits": 100.65784284662087,
+        "epsilon_secrecy": 1e-09,
+        "epsilon_correctness": 1e-12,
+        "epsilon_qkd": 1.0010000000000002e-09,
+        "authentication": "separate computational HMAC assumption",
+        "length": 1690,
+        "parameter_abort": false
+      },
+      "participants": {
+        "alice": {
+          "accepted": true,
+          "length": 1690
+        },
+        "bob": {
+          "accepted": true,
+          "length": 1690
+        }
+      },
+      "keys_match": true,
+      "scope": "Reduced ideal single-photon model; computational authentication; no decoy proof"
+    }
+  },
+  {
+    "noise": 0.005,
+    "seed": 0,
+    "result": {
+      "budget": {
+        "protocol": "ideal_single_photon_asymmetric_bb84",
+        "n": 8192,
+        "k": 8192,
+        "test_errors": 34,
+        "qtol": 0.02,
+        "mu": 0.07347449054925051,
+        "phase_bound": 0.09347449054925051,
+        "entropy_term_bits": 4522.294508215409,
+        "reconciliation_cap_bits": 2731,
+        "verification_bits": 40,
+        "extraction_penalty_bits": 100.65784284662087,
+        "epsilon_secrecy": 1e-09,
+        "epsilon_correctness": 1e-12,
+        "epsilon_qkd": 1.0010000000000002e-09,
+        "authentication": "separate computational HMAC assumption",
+        "length": 1690,
+        "parameter_abort": false
+      },
+      "participants": {
+        "bob": {
+          "accepted": true,
+          "length": 1690
+        },
+        "alice": {
+          "accepted": true,
+          "length": 1690
+        }
+      },
+      "keys_match": true,
+      "scope": "Reduced ideal single-photon model; computational authentication; no decoy proof"
+    }
+  },
+  {
+    "noise": 0.005,
+    "seed": 1,
+    "result": {
+      "budget": {
+        "protocol": "ideal_single_photon_asymmetric_bb84",
+        "n": 8192,
+        "k": 8192,
+        "test_errors": 42,
+        "qtol": 0.02,
+        "mu": 0.07347449054925051,
+        "phase_bound": 0.09347449054925051,
+        "entropy_term_bits": 4522.294508215409,
+        "reconciliation_cap_bits": 2731,
+        "verification_bits": 40,
+        "extraction_penalty_bits": 100.65784284662087,
+        "epsilon_secrecy": 1e-09,
+        "epsilon_correctness": 1e-12,
+        "epsilon_qkd": 1.0010000000000002e-09,
+        "authentication": "separate computational HMAC assumption",
+        "length": 1690,
+        "parameter_abort": false
+      },
+      "participants": {
+        "alice": {
+          "accepted": true,
+          "length": 1690
+        },
+        "bob": {
+          "accepted": true,
+          "length": 1690
+        }
+      },
+      "keys_match": true,
+      "scope": "Reduced ideal single-photon model; computational authentication; no decoy proof"
+    }
+  },
+  {
+    "noise": 0.005,
+    "seed": 2,
+    "result": {
+      "budget": {
+        "protocol": "ideal_single_photon_asymmetric_bb84",
+        "n": 8192,
+        "k": 8192,
+        "test_errors": 59,
+        "qtol": 0.02,
+        "mu": 0.07347449054925051,
+        "phase_bound": 0.09347449054925051,
+        "entropy_term_bits": 4522.294508215409,
+        "reconciliation_cap_bits": 2731,
+        "verification_bits": 40,
+        "extraction_penalty_bits": 100.65784284662087,
+        "epsilon_secrecy": 1e-09,
+        "epsilon_correctness": 1e-12,
+        "epsilon_qkd": 1.0010000000000002e-09,
+        "authentication": "separate computational HMAC assumption",
+        "length": 1690,
+        "parameter_abort": false
+      },
+      "participants": {
+        "alice": {
+          "accepted": true,
+          "length": 1690
+        },
+        "bob": {
+          "accepted": true,
+          "length": 1690
+        }
+      },
+      "keys_match": true,
+      "scope": "Reduced ideal single-photon model; computational authentication; no decoy proof"
+    }
+  },
+  {
+    "noise": 0.02,
+    "seed": 0,
+    "result": {
+      "budget": {
+        "protocol": "ideal_single_photon_asymmetric_bb84",
+        "n": 8192,
+        "k": 8192,
+        "test_errors": 147,
+        "qtol": 0.02,
+        "mu": 0.07347449054925051,
+        "phase_bound": 0.09347449054925051,
+        "entropy_term_bits": 4522.294508215409,
+        "reconciliation_cap_bits": 2731,
+        "verification_bits": 40,
+        "extraction_penalty_bits": 100.65784284662087,
+        "epsilon_secrecy": 1e-09,
+        "epsilon_correctness": 1e-12,
+        "epsilon_qkd": 1.0010000000000002e-09,
+        "authentication": "separate computational HMAC assumption",
+        "length": 1690,
+        "parameter_abort": false
+      },
+      "participants": {
+        "alice": {
+          "accepted": true,
+          "length": 1690
+        },
+        "bob": {
+          "accepted": true,
+          "length": 1690
+        }
+      },
+      "keys_match": true,
+      "scope": "Reduced ideal single-photon model; computational authentication; no decoy proof"
+    }
+  },
+  {
+    "noise": 0.02,
+    "seed": 1,
+    "result": {
+      "budget": {
+        "protocol": "ideal_single_photon_asymmetric_bb84",
+        "n": 8192,
+        "k": 8192,
+        "test_errors": 162,
+        "qtol": 0.02,
+        "mu": 0.07347449054925051,
+        "phase_bound": 0.09347449054925051,
+        "entropy_term_bits": 4522.294508215409,
+        "reconciliation_cap_bits": 2731,
+        "verification_bits": 40,
+        "extraction_penalty_bits": 100.65784284662087,
+        "epsilon_secrecy": 1e-09,
+        "epsilon_correctness": 1e-12,
+        "epsilon_qkd": 1.0010000000000002e-09,
+        "authentication": "separate computational HMAC assumption",
+        "length": 1690,
+        "parameter_abort": false
+      },
+      "participants": {
+        "alice": {
+          "accepted": true,
+          "length": 1690
+        },
+        "bob": {
+          "accepted": true,
+          "length": 1690
+        }
+      },
+      "keys_match": true,
+      "scope": "Reduced ideal single-photon model; computational authentication; no decoy proof"
+    }
+  },
+  {
+    "noise": 0.02,
+    "seed": 2,
+    "result": {
+      "budget": {
+        "protocol": "ideal_single_photon_asymmetric_bb84",
+        "n": 8192,
+        "k": 8192,
+        "test_errors": 127,
+        "qtol": 0.02,
+        "mu": 0.07347449054925051,
+        "phase_bound": 0.09347449054925051,
+        "entropy_term_bits": 4522.294508215409,
+        "reconciliation_cap_bits": 2731,
+        "verification_bits": 40,
+        "extraction_penalty_bits": 100.65784284662087,
+        "epsilon_secrecy": 1e-09,
+        "epsilon_correctness": 1e-12,
+        "epsilon_qkd": 1.0010000000000002e-09,
+        "authentication": "separate computational HMAC assumption",
+        "length": 1690,
+        "parameter_abort": false
+      },
+      "participants": {
+        "alice": {
+          "accepted": true,
+          "length": 1690
+        },
+        "bob": {
+          "accepted": true,
+          "length": 1690
+        }
+      },
+      "keys_match": true,
+      "scope": "Reduced ideal single-photon model; computational authentication; no decoy proof"
+    }
+  },
+  {
+    "noise": 0.08,
+    "seed": 0,
+    "result": {
+      "budget": {
+        "protocol": "ideal_single_photon_asymmetric_bb84",
+        "n": 8192,
+        "k": 8192,
+        "test_errors": 621,
+        "qtol": 0.02,
+        "mu": 0.07347449054925051,
+        "phase_bound": 0.09347449054925051,
+        "entropy_term_bits": 4522.294508215409,
+        "reconciliation_cap_bits": 2731,
+        "verification_bits": 40,
+        "extraction_penalty_bits": 100.65784284662087,
+        "epsilon_secrecy": 1e-09,
+        "epsilon_correctness": 1e-12,
+        "epsilon_qkd": 1.0010000000000002e-09,
+        "authentication": "separate computational HMAC assumption",
+        "length": 0,
+        "parameter_abort": true
+      },
+      "status": "budget_abort"
+    }
+  },
+  {
+    "noise": 0.08,
+    "seed": 1,
+    "result": {
+      "budget": {
+        "protocol": "ideal_single_photon_asymmetric_bb84",
+        "n": 8192,
+        "k": 8192,
+        "test_errors": 649,
+        "qtol": 0.02,
+        "mu": 0.07347449054925051,
+        "phase_bound": 0.09347449054925051,
+        "entropy_term_bits": 4522.294508215409,
+        "reconciliation_cap_bits": 2731,
+        "verification_bits": 40,
+        "extraction_penalty_bits": 100.65784284662087,
+        "epsilon_secrecy": 1e-09,
+        "epsilon_correctness": 1e-12,
+        "epsilon_qkd": 1.0010000000000002e-09,
+        "authentication": "separate computational HMAC assumption",
+        "length": 0,
+        "parameter_abort": true
+      },
+      "status": "budget_abort"
+    }
+  },
+  {
+    "noise": 0.08,
+    "seed": 2,
+    "result": {
+      "budget": {
+        "protocol": "ideal_single_photon_asymmetric_bb84",
+        "n": 8192,
+        "k": 8192,
+        "test_errors": 697,
+        "qtol": 0.02,
+        "mu": 0.07347449054925051,
+        "phase_bound": 0.09347449054925051,
+        "entropy_term_bits": 4522.294508215409,
+        "reconciliation_cap_bits": 2731,
+        "verification_bits": 40,
+        "extraction_penalty_bits": 100.65784284662087,
+        "epsilon_secrecy": 1e-09,
+        "epsilon_correctness": 1e-12,
+        "epsilon_qkd": 1.0010000000000002e-09,
+        "authentication": "separate computational HMAC assumption",
+        "length": 0,
+        "parameter_abort": true
+      },
+      "status": "budget_abort"
+    }
+  },
+  {
+    "fault": "tamper",
+    "result": {
+      "budget": {
+        "protocol": "ideal_single_photon_asymmetric_bb84",
+        "n": 8192,
+        "k": 8192,
+        "test_errors": 55,
+        "qtol": 0.02,
+        "mu": 0.07347449054925051,
+        "phase_bound": 0.09347449054925051,
+        "entropy_term_bits": 4522.294508215409,
+        "reconciliation_cap_bits": 2731,
+        "verification_bits": 40,
+        "extraction_penalty_bits": 100.65784284662087,
+        "epsilon_secrecy": 1e-09,
+        "epsilon_correctness": 1e-12,
+        "epsilon_qkd": 1.0010000000000002e-09,
+        "authentication": "separate computational HMAC assumption",
+        "length": 1690,
+        "parameter_abort": false
+      },
+      "participants": {
+        "bob": {
+          "accepted": false,
+          "error": "Authentication or replay failure"
+        },
+        "alice": {
+          "accepted": false,
+          "error": ""
+        }
+      },
+      "keys_match": false,
+      "scope": "Reduced ideal single-photon model; computational authentication; no decoy proof"
+    }
+  }
+]

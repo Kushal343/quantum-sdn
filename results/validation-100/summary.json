@@ -1,0 +1,822 @@
+[
+  {
+    "scenario": "intercept",
+    "policy": "adaptive",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.19,
+    "false_hold_wilson95": [
+      0.1251465399270426,
+      0.27779024070807856
+    ],
+    "mean_response_delay": 0.0,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": 1.0,
+    "detection_wilson95": [
+      0.9630051925239981,
+      0.9999999999999999
+    ],
+    "missed_runs": 0,
+    "mean_delay_detected_only": 1.0,
+    "mean_estimated_bits": 27951.775109421844,
+    "estimated_bits_bootstrap95": [
+      27785.37466315091,
+      28119.22534298475
+    ]
+  },
+  {
+    "scenario": "intercept",
+    "policy": "aggregate",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.0,
+    "false_hold_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "mean_response_delay": null,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": 0.0,
+    "detection_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "missed_runs": 100,
+    "mean_delay_detected_only": null,
+    "mean_estimated_bits": 28071.391240069697,
+    "estimated_bits_bootstrap95": [
+      27916.20084212711,
+      28225.117408333408
+    ]
+  },
+  {
+    "scenario": "intercept",
+    "policy": "fixed",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.0,
+    "false_hold_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "mean_response_delay": null,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": 0.0,
+    "detection_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "missed_runs": 100,
+    "mean_delay_detected_only": null,
+    "mean_estimated_bits": 28071.391240069697,
+    "estimated_bits_bootstrap95": [
+      27916.20084212711,
+      28225.117408333408
+    ]
+  },
+  {
+    "scenario": "intercept",
+    "policy": "per_wavelength",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.0,
+    "false_hold_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "mean_response_delay": 0.0,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": 1.0,
+    "detection_wilson95": [
+      0.9630051925239981,
+      0.9999999999999999
+    ],
+    "missed_runs": 0,
+    "mean_delay_detected_only": 0.0,
+    "mean_estimated_bits": 28071.391240069697,
+    "estimated_bits_bootstrap95": [
+      27916.20084212711,
+      28225.117408333408
+    ]
+  },
+  {
+    "scenario": "loss",
+    "policy": "adaptive",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.27,
+    "false_hold_wilson95": [
+      0.1926946091766482,
+      0.3643230022623127
+    ],
+    "mean_response_delay": null,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.01,
+    "false_isolation_wilson95": [
+      0.0017673865655472645,
+      0.0544875247609346
+    ],
+    "detection_probability": null,
+    "detection_wilson95": null,
+    "missed_runs": null,
+    "mean_delay_detected_only": null,
+    "mean_estimated_bits": 29412.145566465595,
+    "estimated_bits_bootstrap95": [
+      29216.38858084503,
+      29614.42538288728
+    ]
+  },
+  {
+    "scenario": "loss",
+    "policy": "aggregate",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.0,
+    "false_hold_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "mean_response_delay": null,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": null,
+    "detection_wilson95": null,
+    "missed_runs": null,
+    "mean_delay_detected_only": null,
+    "mean_estimated_bits": 29577.032907656776,
+    "estimated_bits_bootstrap95": [
+      29391.439737142136,
+      29762.737607281884
+    ]
+  },
+  {
+    "scenario": "loss",
+    "policy": "fixed",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.0,
+    "false_hold_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "mean_response_delay": null,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": null,
+    "detection_wilson95": null,
+    "missed_runs": null,
+    "mean_delay_detected_only": null,
+    "mean_estimated_bits": 29577.032907656776,
+    "estimated_bits_bootstrap95": [
+      29391.439737142136,
+      29762.737607281884
+    ]
+  },
+  {
+    "scenario": "loss",
+    "policy": "per_wavelength",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.0,
+    "false_hold_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "mean_response_delay": null,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": null,
+    "detection_wilson95": null,
+    "missed_runs": null,
+    "mean_delay_detected_only": null,
+    "mean_estimated_bits": 29577.032907656776,
+    "estimated_bits_bootstrap95": [
+      29391.439737142136,
+      29762.737607281884
+    ]
+  },
+  {
+    "scenario": "noise",
+    "policy": "adaptive",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.2,
+    "false_hold_wilson95": [
+      0.1333659225590988,
+      0.28883096192650237
+    ],
+    "mean_response_delay": null,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": null,
+    "detection_wilson95": null,
+    "missed_runs": null,
+    "mean_delay_detected_only": null,
+    "mean_estimated_bits": 30579.985690998365,
+    "estimated_bits_bootstrap95": [
+      30383.17193305954,
+      30765.395252459777
+    ]
+  },
+  {
+    "scenario": "noise",
+    "policy": "aggregate",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.0,
+    "false_hold_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "mean_response_delay": null,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": null,
+    "detection_wilson95": null,
+    "missed_runs": null,
+    "mean_delay_detected_only": null,
+    "mean_estimated_bits": 30697.62746891719,
+    "estimated_bits_bootstrap95": [
+      30502.252032971162,
+      30883.820243047852
+    ]
+  },
+  {
+    "scenario": "noise",
+    "policy": "fixed",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.0,
+    "false_hold_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "mean_response_delay": null,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": null,
+    "detection_wilson95": null,
+    "missed_runs": null,
+    "mean_delay_detected_only": null,
+    "mean_estimated_bits": 30697.62746891719,
+    "estimated_bits_bootstrap95": [
+      30502.252032971162,
+      30883.820243047852
+    ]
+  },
+  {
+    "scenario": "noise",
+    "policy": "per_wavelength",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.0,
+    "false_hold_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "mean_response_delay": null,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": null,
+    "detection_wilson95": null,
+    "missed_runs": null,
+    "mean_delay_detected_only": null,
+    "mean_estimated_bits": 30697.62746891719,
+    "estimated_bits_bootstrap95": [
+      30502.252032971162,
+      30883.820243047852
+    ]
+  },
+  {
+    "scenario": "normal",
+    "policy": "adaptive",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.24,
+    "false_hold_wilson95": [
+      0.16691211265459965,
+      0.3323251872329213
+    ],
+    "mean_response_delay": null,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": null,
+    "detection_wilson95": null,
+    "missed_runs": null,
+    "mean_delay_detected_only": null,
+    "mean_estimated_bits": 32836.646453548485,
+    "estimated_bits_bootstrap95": [
+      32655.734380004753,
+      33011.41551071293
+    ]
+  },
+  {
+    "scenario": "normal",
+    "policy": "aggregate",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.0,
+    "false_hold_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "mean_response_delay": null,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": null,
+    "detection_wilson95": null,
+    "missed_runs": null,
+    "mean_delay_detected_only": null,
+    "mean_estimated_bits": 33000.00930820494,
+    "estimated_bits_bootstrap95": [
+      32822.00641721463,
+      33172.088135442405
+    ]
+  },
+  {
+    "scenario": "normal",
+    "policy": "fixed",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.0,
+    "false_hold_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "mean_response_delay": null,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": null,
+    "detection_wilson95": null,
+    "missed_runs": null,
+    "mean_delay_detected_only": null,
+    "mean_estimated_bits": 33000.00930820494,
+    "estimated_bits_bootstrap95": [
+      32822.00641721463,
+      33172.088135442405
+    ]
+  },
+  {
+    "scenario": "normal",
+    "policy": "per_wavelength",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.0,
+    "false_hold_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "mean_response_delay": null,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": null,
+    "detection_wilson95": null,
+    "missed_runs": null,
+    "mean_delay_detected_only": null,
+    "mean_estimated_bits": 33000.00930820494,
+    "estimated_bits_bootstrap95": [
+      32822.00641721463,
+      33172.088135442405
+    ]
+  },
+  {
+    "scenario": "shared_noise",
+    "policy": "adaptive",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.12,
+    "false_hold_wilson95": [
+      0.06999337365267776,
+      0.19812268002908368
+    ],
+    "mean_response_delay": null,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": null,
+    "detection_wilson95": null,
+    "missed_runs": null,
+    "mean_delay_detected_only": null,
+    "mean_estimated_bits": 23917.699325752874,
+    "estimated_bits_bootstrap95": [
+      23682.374029278653,
+      24153.779028135756
+    ]
+  },
+  {
+    "scenario": "shared_noise",
+    "policy": "aggregate",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.0,
+    "false_hold_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "mean_response_delay": null,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": null,
+    "detection_wilson95": null,
+    "missed_runs": null,
+    "mean_delay_detected_only": null,
+    "mean_estimated_bits": 23974.623804287523,
+    "estimated_bits_bootstrap95": [
+      23741.40441875072,
+      24208.573715192204
+    ]
+  },
+  {
+    "scenario": "shared_noise",
+    "policy": "fixed",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.0,
+    "false_hold_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "mean_response_delay": null,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": null,
+    "detection_wilson95": null,
+    "missed_runs": null,
+    "mean_delay_detected_only": null,
+    "mean_estimated_bits": 23974.623804287523,
+    "estimated_bits_bootstrap95": [
+      23741.40441875072,
+      24208.573715192204
+    ]
+  },
+  {
+    "scenario": "shared_noise",
+    "policy": "per_wavelength",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.0,
+    "false_hold_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "mean_response_delay": null,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": null,
+    "detection_wilson95": null,
+    "missed_runs": null,
+    "mean_delay_detected_only": null,
+    "mean_estimated_bits": 23974.623804287523,
+    "estimated_bits_bootstrap95": [
+      23741.40441875072,
+      24208.573715192204
+    ]
+  },
+  {
+    "scenario": "tap",
+    "policy": "adaptive",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.21,
+    "false_hold_wilson95": [
+      0.14165549531645788,
+      0.2998014930196232
+    ],
+    "mean_response_delay": 0.0,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": 1.0,
+    "detection_wilson95": [
+      0.9630051925239981,
+      0.9999999999999999
+    ],
+    "missed_runs": 0,
+    "mean_delay_detected_only": 1.0,
+    "mean_estimated_bits": 27965.40920350503,
+    "estimated_bits_bootstrap95": [
+      27798.413769688254,
+      28130.8015247016
+    ]
+  },
+  {
+    "scenario": "tap",
+    "policy": "aggregate",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.0,
+    "false_hold_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "mean_response_delay": null,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": 0.0,
+    "detection_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "missed_runs": 100,
+    "mean_delay_detected_only": null,
+    "mean_estimated_bits": 31216.117852363983,
+    "estimated_bits_bootstrap95": [
+      31050.129478834515,
+      31378.315945401228
+    ]
+  },
+  {
+    "scenario": "tap",
+    "policy": "fixed",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.0,
+    "false_hold_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "mean_response_delay": null,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": 0.0,
+    "detection_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "missed_runs": 100,
+    "mean_delay_detected_only": null,
+    "mean_estimated_bits": 31216.117852363983,
+    "estimated_bits_bootstrap95": [
+      31050.129478834515,
+      31378.315945401228
+    ]
+  },
+  {
+    "scenario": "tap",
+    "policy": "per_wavelength",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.0,
+    "false_hold_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "mean_response_delay": null,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": 0.0,
+    "detection_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "missed_runs": 100,
+    "mean_delay_detected_only": null,
+    "mean_estimated_bits": 31216.117852363983,
+    "estimated_bits_bootstrap95": [
+      31050.129478834515,
+      31378.315945401228
+    ]
+  },
+  {
+    "scenario": "weak_intercept",
+    "policy": "adaptive",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.19,
+    "false_hold_wilson95": [
+      0.1251465399270426,
+      0.27779024070807856
+    ],
+    "mean_response_delay": 0.0,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": 1.0,
+    "detection_wilson95": [
+      0.9630051925239981,
+      0.9999999999999999
+    ],
+    "missed_runs": 0,
+    "mean_delay_detected_only": 1.02,
+    "mean_estimated_bits": 27970.081377783245,
+    "estimated_bits_bootstrap95": [
+      27800.898799813025,
+      28140.23437534132
+    ]
+  },
+  {
+    "scenario": "weak_intercept",
+    "policy": "aggregate",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.0,
+    "false_hold_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "mean_response_delay": null,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": 0.0,
+    "detection_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "missed_runs": 100,
+    "mean_delay_detected_only": null,
+    "mean_estimated_bits": 29392.595187436076,
+    "estimated_bits_bootstrap95": [
+      29208.513790622146,
+      29572.143665379772
+    ]
+  },
+  {
+    "scenario": "weak_intercept",
+    "policy": "fixed",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.0,
+    "false_hold_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "mean_response_delay": null,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": 0.0,
+    "detection_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "missed_runs": 100,
+    "mean_delay_detected_only": null,
+    "mean_estimated_bits": 29392.595187436076,
+    "estimated_bits_bootstrap95": [
+      29208.513790622146,
+      29572.143665379772
+    ]
+  },
+  {
+    "scenario": "weak_intercept",
+    "policy": "per_wavelength",
+    "runs": 100,
+    "engine": "binomial",
+    "false_hold_probability": 0.0,
+    "false_hold_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "mean_response_delay": null,
+    "mean_retunes": 0.0,
+    "mean_rollbacks": 0.0,
+    "false_isolation_probability": 0.0,
+    "false_isolation_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "detection_probability": 0.0,
+    "detection_wilson95": [
+      0.0,
+      0.03699480747600191
+    ],
+    "missed_runs": 100,
+    "mean_delay_detected_only": null,
+    "mean_estimated_bits": 29392.595187436076,
+    "estimated_bits_bootstrap95": [
+      29208.513790622146,
+      29572.143665379772
+    ]
+  }
+]

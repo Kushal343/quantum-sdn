@@ -1,0 +1,11 @@
+{
+  "n_sent": 24000,
+  "n_sifted": 12001,
+  "n_sample": 3000,
+  "sample_errors": 586,
+  "qber": 0.19533333333333333,
+  "aborted": true,
+  "scope": "Simulation; candidate key conditional on unproven entropy assumption",
+  "remaining_bit_error_upper_99_9": 0.22208643484057328,
+  "status": "bb84_aborted"
+}

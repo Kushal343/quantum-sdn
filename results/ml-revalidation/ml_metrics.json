@@ -1,0 +1,9 @@
+{
+  "training_source": "analytical asymptotic teacher, not Qiskit shot labels",
+  "split": "held-out channel conditions, all candidates grouped",
+  "train_conditions": 320,
+  "test_conditions": 80,
+  "qber_mae": 0.003924675222506737,
+  "secret_fraction_mae": 0.0001357947309255052,
+  "mean_relative_candidate_regret": 0.02700552267173823
+}

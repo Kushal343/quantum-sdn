@@ -1,0 +1,19 @@
+{
+  "n_sent": 24000,
+  "n_sifted": 12001,
+  "n_sample": 3000,
+  "sample_errors": 15,
+  "qber": 0.005,
+  "aborted": false,
+  "scope": "Simulation; candidate key conditional on unproven entropy assumption",
+  "remaining_bit_error_upper_99_9": 0.011220975447172536,
+  "verified": true,
+  "parity_leakage_bits": 2314,
+  "verification_leakage_bits": 64,
+  "assumed_min_entropy_bits": 7200,
+  "candidate_length": 4762,
+  "status": "candidate_under_assumed_entropy",
+  "transcript_authenticated": true,
+  "candidate_keys_match": true,
+  "authenticated_messages": 2317
+}

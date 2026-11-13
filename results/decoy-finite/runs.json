@@ -1,0 +1,1757 @@
+[
+  {
+    "pulses": 100000,
+    "seed": 0,
+    "intercept": 0,
+    "nx": [
+      1794,
+      77,
+      0
+    ],
+    "nz": [
+      296,
+      18,
+      1
+    ],
+    "mz": [
+      5,
+      0,
+      1
+    ],
+    "raw_bits": 1871,
+    "test_bits": 315,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 106.41454369109286,
+    "leak_ec_bits": 624,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 100000,
+    "seed": 1,
+    "intercept": 0,
+    "nx": [
+      1683,
+      104,
+      0
+    ],
+    "nz": [
+      302,
+      18,
+      0
+    ],
+    "mz": [
+      3,
+      2,
+      0
+    ],
+    "raw_bits": 1787,
+    "test_bits": 320,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 122.34712056978134,
+    "leak_ec_bits": 596,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 100000,
+    "seed": 2,
+    "intercept": 0,
+    "nx": [
+      1710,
+      91,
+      0
+    ],
+    "nz": [
+      313,
+      15,
+      0
+    ],
+    "mz": [
+      6,
+      1,
+      0
+    ],
+    "raw_bits": 1801,
+    "test_bits": 328,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 127.5430326299263,
+    "leak_ec_bits": 601,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 100000,
+    "seed": 3,
+    "intercept": 0,
+    "nx": [
+      1692,
+      102,
+      0
+    ],
+    "nz": [
+      307,
+      17,
+      0
+    ],
+    "mz": [
+      5,
+      1,
+      0
+    ],
+    "raw_bits": 1794,
+    "test_bits": 324,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 119.01673228745798,
+    "leak_ec_bits": 599,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 100000,
+    "seed": 4,
+    "intercept": 0,
+    "nx": [
+      1692,
+      111,
+      0
+    ],
+    "nz": [
+      326,
+      15,
+      0
+    ],
+    "mz": [
+      9,
+      0,
+      0
+    ],
+    "raw_bits": 1803,
+    "test_bits": 341,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 130.3306666271422,
+    "leak_ec_bits": 602,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 100000,
+    "seed": 0,
+    "intercept": 0.8,
+    "nx": [
+      1794,
+      95,
+      0
+    ],
+    "nz": [
+      330,
+      17,
+      0
+    ],
+    "mz": [
+      63,
+      3,
+      0
+    ],
+    "raw_bits": 1889,
+    "test_bits": 347,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 390.74367944933186,
+    "leak_ec_bits": 630,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 100000,
+    "seed": 1,
+    "intercept": 0.8,
+    "nx": [
+      1683,
+      89,
+      0
+    ],
+    "nz": [
+      302,
+      18,
+      0
+    ],
+    "mz": [
+      76,
+      3,
+      0
+    ],
+    "raw_bits": 1772,
+    "test_bits": 320,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 423.9413336292235,
+    "leak_ec_bits": 591,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 100000,
+    "seed": 2,
+    "intercept": 0.8,
+    "nx": [
+      1710,
+      112,
+      0
+    ],
+    "nz": [
+      317,
+      15,
+      0
+    ],
+    "mz": [
+      52,
+      6,
+      0
+    ],
+    "raw_bits": 1822,
+    "test_bits": 332,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 406.4693935009589,
+    "leak_ec_bits": 608,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 100000,
+    "seed": 3,
+    "intercept": 0.8,
+    "nx": [
+      1692,
+      77,
+      0
+    ],
+    "nz": [
+      320,
+      16,
+      0
+    ],
+    "mz": [
+      59,
+      1,
+      0
+    ],
+    "raw_bits": 1769,
+    "test_bits": 336,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 349.11452282772007,
+    "leak_ec_bits": 590,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 100000,
+    "seed": 4,
+    "intercept": 0.8,
+    "nx": [
+      1692,
+      99,
+      1
+    ],
+    "nz": [
+      312,
+      23,
+      0
+    ],
+    "mz": [
+      59,
+      5,
+      0
+    ],
+    "raw_bits": 1792,
+    "test_bits": 335,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 410.5593873208715,
+    "leak_ec_bits": 598,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 1000000,
+    "seed": 0,
+    "intercept": 0,
+    "nx": [
+      17415,
+      938,
+      0
+    ],
+    "nz": [
+      3173,
+      159,
+      0
+    ],
+    "mz": [
+      52,
+      3,
+      0
+    ],
+    "raw_bits": 18353,
+    "test_bits": 3332,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 359.9925966765557,
+    "leak_ec_bits": 6118,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 1000000,
+    "seed": 1,
+    "intercept": 0,
+    "nx": [
+      17140,
+      935,
+      1
+    ],
+    "nz": [
+      3267,
+      204,
+      0
+    ],
+    "mz": [
+      56,
+      2,
+      0
+    ],
+    "raw_bits": 18076,
+    "test_bits": 3471,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 356.06063911549836,
+    "leak_ec_bits": 6026,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 1000000,
+    "seed": 2,
+    "intercept": 0,
+    "nx": [
+      17144,
+      958,
+      2
+    ],
+    "nz": [
+      3255,
+      175,
+      1
+    ],
+    "mz": [
+      51,
+      4,
+      0
+    ],
+    "raw_bits": 18104,
+    "test_bits": 3431,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 372.59478527292083,
+    "leak_ec_bits": 6035,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 1000000,
+    "seed": 3,
+    "intercept": 0,
+    "nx": [
+      17169,
+      979,
+      5
+    ],
+    "nz": [
+      3120,
+      163,
+      0
+    ],
+    "mz": [
+      56,
+      1,
+      0
+    ],
+    "raw_bits": 18153,
+    "test_bits": 3283,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 340.59384022082855,
+    "leak_ec_bits": 6052,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 1000000,
+    "seed": 4,
+    "intercept": 0,
+    "nx": [
+      16908,
+      936,
+      0
+    ],
+    "nz": [
+      3184,
+      176,
+      0
+    ],
+    "mz": [
+      55,
+      6,
+      0
+    ],
+    "raw_bits": 17844,
+    "test_bits": 3360,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 414.9181471733026,
+    "leak_ec_bits": 5949,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 1000000,
+    "seed": 0,
+    "intercept": 0.8,
+    "nx": [
+      17415,
+      938,
+      2
+    ],
+    "nz": [
+      3195,
+      159,
+      0
+    ],
+    "mz": [
+      684,
+      30,
+      0
+    ],
+    "raw_bits": 18355,
+    "test_bits": 3354,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 1538.9112798274107,
+    "leak_ec_bits": 6119,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 1000000,
+    "seed": 1,
+    "intercept": 0.8,
+    "nx": [
+      17140,
+      935,
+      1
+    ],
+    "nz": [
+      3026,
+      157,
+      0
+    ],
+    "mz": [
+      655,
+      30,
+      0
+    ],
+    "raw_bits": 18076,
+    "test_bits": 3183,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 1515.092317623383,
+    "leak_ec_bits": 6026,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 1000000,
+    "seed": 2,
+    "intercept": 0.8,
+    "nx": [
+      17144,
+      958,
+      3
+    ],
+    "nz": [
+      3101,
+      173,
+      0
+    ],
+    "mz": [
+      648,
+      33,
+      0
+    ],
+    "raw_bits": 18105,
+    "test_bits": 3274,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 1549.5742369399843,
+    "leak_ec_bits": 6036,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 1000000,
+    "seed": 3,
+    "intercept": 0.8,
+    "nx": [
+      17169,
+      979,
+      1
+    ],
+    "nz": [
+      3223,
+      156,
+      0
+    ],
+    "mz": [
+      670,
+      40,
+      0
+    ],
+    "raw_bits": 18149,
+    "test_bits": 3379,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 1661.6769304232553,
+    "leak_ec_bits": 6050,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 1000000,
+    "seed": 4,
+    "intercept": 0.8,
+    "nx": [
+      16908,
+      936,
+      2
+    ],
+    "nz": [
+      3131,
+      176,
+      0
+    ],
+    "mz": [
+      668,
+      48,
+      0
+    ],
+    "raw_bits": 17846,
+    "test_bits": 3307,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 1767.3753718188236,
+    "leak_ec_bits": 5949,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 10000000,
+    "seed": 0,
+    "intercept": 0,
+    "nx": [
+      172471,
+      9379,
+      19
+    ],
+    "nz": [
+      31669,
+      1767,
+      3
+    ],
+    "mz": [
+      511,
+      29,
+      1
+    ],
+    "raw_bits": 181869,
+    "test_bits": 33439,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 1375.9347961152366,
+    "leak_ec_bits": 60624,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 10000000,
+    "seed": 1,
+    "intercept": 0,
+    "nx": [
+      171329,
+      9327,
+      20
+    ],
+    "nz": [
+      31397,
+      1666,
+      4
+    ],
+    "mz": [
+      514,
+      28,
+      3
+    ],
+    "raw_bits": 180676,
+    "test_bits": 33067,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 1367.0612966710773,
+    "leak_ec_bits": 60226,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 10000000,
+    "seed": 2,
+    "intercept": 0,
+    "nx": [
+      171605,
+      9155,
+      15
+    ],
+    "nz": [
+      31363,
+      1725,
+      4
+    ],
+    "mz": [
+      491,
+      29,
+      3
+    ],
+    "raw_bits": 180775,
+    "test_bits": 33092,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 1358.9825365498327,
+    "leak_ec_bits": 60259,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 10000000,
+    "seed": 3,
+    "intercept": 0,
+    "nx": [
+      171682,
+      9513,
+      15
+    ],
+    "nz": [
+      31738,
+      1665,
+      4
+    ],
+    "mz": [
+      494,
+      23,
+      3
+    ],
+    "raw_bits": 181210,
+    "test_bits": 33407,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 1280.5158258834372,
+    "leak_ec_bits": 60404,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 10000000,
+    "seed": 4,
+    "intercept": 0,
+    "nx": [
+      170852,
+      9373,
+      17
+    ],
+    "nz": [
+      31456,
+      1727,
+      2
+    ],
+    "mz": [
+      505,
+      41,
+      2
+    ],
+    "raw_bits": 180242,
+    "test_bits": 33185,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 1533.6772938074644,
+    "leak_ec_bits": 60081,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 10000000,
+    "seed": 0,
+    "intercept": 0.8,
+    "nx": [
+      172471,
+      9366,
+      18
+    ],
+    "nz": [
+      31603,
+      1673,
+      3
+    ],
+    "mz": [
+      6700,
+      369,
+      3
+    ],
+    "raw_bits": 181855,
+    "test_bits": 33279,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 8303.601396243448,
+    "leak_ec_bits": 60619,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 10000000,
+    "seed": 1,
+    "intercept": 0.8,
+    "nx": [
+      171329,
+      9327,
+      20
+    ],
+    "nz": [
+      31397,
+      1771,
+      3
+    ],
+    "mz": [
+      6410,
+      349,
+      0
+    ],
+    "raw_bits": 180676,
+    "test_bits": 33171,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 7969.794831346049,
+    "leak_ec_bits": 60226,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 10000000,
+    "seed": 2,
+    "intercept": 0.8,
+    "nx": [
+      171605,
+      9155,
+      15
+    ],
+    "nz": [
+      31363,
+      1725,
+      4
+    ],
+    "mz": [
+      6558,
+      344,
+      3
+    ],
+    "raw_bits": 180775,
+    "test_bits": 33092,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 7945.152889327152,
+    "leak_ec_bits": 60259,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 10000000,
+    "seed": 3,
+    "intercept": 0.8,
+    "nx": [
+      171682,
+      9513,
+      15
+    ],
+    "nz": [
+      31738,
+      1665,
+      4
+    ],
+    "mz": [
+      6624,
+      366,
+      3
+    ],
+    "raw_bits": 181210,
+    "test_bits": 33407,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 8245.331830664392,
+    "leak_ec_bits": 60404,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 10000000,
+    "seed": 4,
+    "intercept": 0.8,
+    "nx": [
+      170852,
+      9373,
+      17
+    ],
+    "nz": [
+      31456,
+      1727,
+      2
+    ],
+    "mz": [
+      6625,
+      326,
+      2
+    ],
+    "raw_bits": 180242,
+    "test_bits": 33185,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 0.0,
+    "single_z_lower": 0.0,
+    "single_z_errors_upper": 7730.839193682485,
+    "leak_ec_bits": 60081,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "insufficient_statistics",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 100000000,
+    "seed": 0,
+    "intercept": 0,
+    "nx": [
+      1719328,
+      93803,
+      147
+    ],
+    "nz": [
+      315711,
+      17352,
+      31
+    ],
+    "mz": [
+      4918,
+      340,
+      12
+    ],
+    "raw_bits": 1813278,
+    "test_bits": 333094,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 668748.1150026624,
+    "single_z_lower": 42807.323865491446,
+    "single_z_errors_upper": 7438.518856432338,
+    "leak_ec_bits": 604427,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": 0.19075980510551824,
+    "length": 0,
+    "status": "phase_abort",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 100000000,
+    "seed": 1,
+    "intercept": 0,
+    "nx": [
+      1715706,
+      93676,
+      169
+    ],
+    "nz": [
+      314027,
+      17049,
+      28
+    ],
+    "mz": [
+      4993,
+      338,
+      14
+    ],
+    "raw_bits": 1809551,
+    "test_bits": 331104,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 666844.8109607717,
+    "single_z_lower": 39087.20260940965,
+    "single_z_errors_upper": 7435.676669506868,
+    "leak_ec_bits": 603184,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": 0.20860963492131399,
+    "length": 0,
+    "status": "phase_abort",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 100000000,
+    "seed": 2,
+    "intercept": 0,
+    "nx": [
+      1716581,
+      93124,
+      172
+    ],
+    "nz": [
+      315311,
+      17059,
+      41
+    ],
+    "mz": [
+      4954,
+      334,
+      24
+    ],
+    "raw_bits": 1809877,
+    "test_bits": 332411,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 657714.002921427,
+    "single_z_lower": 37888.29136073572,
+    "single_z_errors_upper": 7375.448008871764,
+    "leak_ec_bits": 603293,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": 0.21348653262176165,
+    "length": 0,
+    "status": "phase_abort",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 100000000,
+    "seed": 3,
+    "intercept": 0,
+    "nx": [
+      1716824,
+      94269,
+      175
+    ],
+    "nz": [
+      314757,
+      17224,
+      32
+    ],
+    "mz": [
+      5000,
+      307,
+      18
+    ],
+    "raw_bits": 1811268,
+    "test_bits": 332013,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 675389.1101568849,
+    "single_z_lower": 41226.4896148319,
+    "single_z_errors_upper": 7039.060995845185,
+    "leak_ec_bits": 603757,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": 0.18792302373449937,
+    "length": 0,
+    "status": "phase_abort",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 100000000,
+    "seed": 4,
+    "intercept": 0,
+    "nx": [
+      1714194,
+      93822,
+      179
+    ],
+    "nz": [
+      315729,
+      17071,
+      28
+    ],
+    "mz": [
+      4962,
+      318,
+      15
+    ],
+    "raw_bits": 1808195,
+    "test_bits": 332828,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 669121.4001788533,
+    "single_z_lower": 38600.712140434815,
+    "single_z_errors_upper": 7168.742347098413,
+    "leak_ec_bits": 602732,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": 0.20403640988128624,
+    "length": 0,
+    "status": "phase_abort",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 100000000,
+    "seed": 0,
+    "intercept": 0.8,
+    "nx": [
+      1719328,
+      93803,
+      147
+    ],
+    "nz": [
+      315711,
+      17352,
+      31
+    ],
+    "mz": [
+      65993,
+      3716,
+      12
+    ],
+    "raw_bits": 1813278,
+    "test_bits": 333094,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 668748.1150026624,
+    "single_z_lower": 42807.323865491446,
+    "single_z_errors_upper": 58300.88828938522,
+    "leak_ec_bits": 604427,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "phase_bound_unavailable",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 100000000,
+    "seed": 1,
+    "intercept": 0.8,
+    "nx": [
+      1715706,
+      93676,
+      169
+    ],
+    "nz": [
+      314027,
+      17049,
+      28
+    ],
+    "mz": [
+      65981,
+      3664,
+      14
+    ],
+    "raw_bits": 1809551,
+    "test_bits": 331104,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 666844.8109607717,
+    "single_z_lower": 39087.20260940965,
+    "single_z_errors_upper": 57640.472936054204,
+    "leak_ec_bits": 603184,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "phase_bound_unavailable",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 100000000,
+    "seed": 2,
+    "intercept": 0.8,
+    "nx": [
+      1716581,
+      93124,
+      172
+    ],
+    "nz": [
+      315311,
+      17059,
+      34
+    ],
+    "mz": [
+      66050,
+      3608,
+      17
+    ],
+    "raw_bits": 1809877,
+    "test_bits": 332404,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 657714.002921427,
+    "single_z_lower": 38280.99608978465,
+    "single_z_errors_upper": 56936.06712001259,
+    "leak_ec_bits": 603293,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "phase_bound_unavailable",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 100000000,
+    "seed": 3,
+    "intercept": 0.8,
+    "nx": [
+      1716824,
+      94269,
+      175
+    ],
+    "nz": [
+      314757,
+      17224,
+      32
+    ],
+    "mz": [
+      66117,
+      3596,
+      18
+    ],
+    "raw_bits": 1811268,
+    "test_bits": 332013,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 675389.1101568849,
+    "single_z_lower": 41226.4896148319,
+    "single_z_errors_upper": 56789.44827540945,
+    "leak_ec_bits": 603757,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "phase_bound_unavailable",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 100000000,
+    "seed": 4,
+    "intercept": 0.8,
+    "nx": [
+      1714194,
+      93822,
+      179
+    ],
+    "nz": [
+      315729,
+      17071,
+      28
+    ],
+    "mz": [
+      66143,
+      3602,
+      15
+    ],
+    "raw_bits": 1808195,
+    "test_bits": 332828,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 669121.4001788533,
+    "single_z_lower": 38600.712140434815,
+    "single_z_errors_upper": 56867.44666448979,
+    "leak_ec_bits": 602732,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": null,
+    "length": 0,
+    "status": "phase_bound_unavailable",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 1000000000,
+    "seed": 0,
+    "intercept": 0,
+    "nx": [
+      17176196,
+      938479,
+      1754
+    ],
+    "nz": [
+      3155070,
+      172719,
+      271
+    ],
+    "mz": [
+      49250,
+      3169,
+      146
+    ],
+    "raw_bits": 18116429,
+    "test_bits": 3328060,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 8966305.142833503,
+    "single_z_lower": 1396664.9367699681,
+    "single_z_errors_upper": 49896.66494696436,
+    "leak_ec_bits": 6038810,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": 0.03720523724799957,
+    "length": 871022,
+    "status": "positive_bound",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis",
+    "finite_penalty_bits": 246.60115879923848
+  },
+  {
+    "pulses": 1000000000,
+    "seed": 1,
+    "intercept": 0,
+    "nx": [
+      17164736,
+      938076,
+      1640
+    ],
+    "nz": [
+      3149213,
+      171798,
+      320
+    ],
+    "mz": [
+      49631,
+      3248,
+      152
+    ],
+    "raw_bits": 18104452,
+    "test_bits": 3321331,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 8969788.532140074,
+    "single_z_lower": 1381466.1407551868,
+    "single_z_errors_upper": 50936.290654894176,
+    "leak_ec_bits": 6034818,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": 0.038380149216234415,
+    "length": 828480,
+    "status": "positive_bound",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis",
+    "finite_penalty_bits": 246.60115879923848
+  },
+  {
+    "pulses": 1000000000,
+    "seed": 2,
+    "intercept": 0,
+    "nx": [
+      17167504,
+      936322,
+      1711
+    ],
+    "nz": [
+      3153279,
+      171829,
+      334
+    ],
+    "mz": [
+      49501,
+      3188,
+      171
+    ],
+    "raw_bits": 18105537,
+    "test_bits": 3325442,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 8937407.099548815,
+    "single_z_lower": 1379788.4542000452,
+    "single_z_errors_upper": 50164.01660508651,
+    "leak_ec_bits": 6035180,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": 0.03785656182069227,
+    "length": 825134,
+    "status": "positive_bound",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis",
+    "finite_penalty_bits": 246.60115879923848
+  },
+  {
+    "pulses": 1000000000,
+    "seed": 3,
+    "intercept": 0,
+    "nx": [
+      17168275,
+      939958,
+      1723
+    ],
+    "nz": [
+      3151523,
+      172356,
+      304
+    ],
+    "mz": [
+      49650,
+      3148,
+      148
+    ],
+    "raw_bits": 18109956,
+    "test_bits": 3324183,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 8993675.33980892,
+    "single_z_lower": 1390329.1360756024,
+    "single_z_errors_upper": 49668.05088764456,
+    "leak_ec_bits": 6036653,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": 0.03720625940961818,
+    "length": 894229,
+    "status": "positive_bound",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis",
+    "finite_penalty_bits": 246.60115879923848
+  },
+  {
+    "pulses": 1000000000,
+    "seed": 4,
+    "intercept": 0,
+    "nx": [
+      17159944,
+      938539,
+      1731
+    ],
+    "nz": [
+      3154604,
+      171869,
+      332
+    ],
+    "mz": [
+      49528,
+      3179,
+      163
+    ],
+    "raw_bits": 18100214,
+    "test_bits": 3326805,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 8973421.168791274,
+    "single_z_lower": 1380077.9014787776,
+    "single_z_errors_upper": 50051.541645423844,
+    "leak_ec_bits": 6033405,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": 0.03776516201272121,
+    "length": 858384,
+    "status": "positive_bound",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis",
+    "finite_penalty_bits": 246.60115879923848
+  },
+  {
+    "pulses": 1000000000,
+    "seed": 0,
+    "intercept": 0.8,
+    "nx": [
+      17176196,
+      938479,
+      1754
+    ],
+    "nz": [
+      3155070,
+      172719,
+      271
+    ],
+    "mz": [
+      659862,
+      36372,
+      146
+    ],
+    "raw_bits": 18116429,
+    "test_bits": 3328060,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 8966305.142833503,
+    "single_z_lower": 1396664.9367699681,
+    "single_z_errors_upper": 494620.1839217874,
+    "leak_ec_bits": 6038810,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": 0.35785734688239224,
+    "length": 0,
+    "status": "phase_abort",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 1000000000,
+    "seed": 1,
+    "intercept": 0.8,
+    "nx": [
+      17164736,
+      938076,
+      1640
+    ],
+    "nz": [
+      3149213,
+      171798,
+      320
+    ],
+    "mz": [
+      660189,
+      36476,
+      152
+    ],
+    "raw_bits": 18104452,
+    "test_bits": 3321331,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 8969788.532140074,
+    "single_z_lower": 1381466.1407551868,
+    "single_z_errors_upper": 495942.18481083016,
+    "leak_ec_bits": 6034818,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": 0.36273962102809093,
+    "length": 0,
+    "status": "phase_abort",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 1000000000,
+    "seed": 2,
+    "intercept": 0.8,
+    "nx": [
+      17167504,
+      936322,
+      1711
+    ],
+    "nz": [
+      3153279,
+      171829,
+      334
+    ],
+    "mz": [
+      660405,
+      36293,
+      171
+    ],
+    "raw_bits": 18105537,
+    "test_bits": 3325442,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 8937407.099548815,
+    "single_z_lower": 1379788.4542000452,
+    "single_z_errors_upper": 493637.337401886,
+    "leak_ec_bits": 6035180,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": 0.36150588396542804,
+    "length": 0,
+    "status": "phase_abort",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 1000000000,
+    "seed": 3,
+    "intercept": 0.8,
+    "nx": [
+      17168275,
+      939958,
+      1723
+    ],
+    "nz": [
+      3151523,
+      172356,
+      304
+    ],
+    "mz": [
+      660618,
+      36254,
+      148
+    ],
+    "raw_bits": 18109956,
+    "test_bits": 3324183,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 8993675.33980892,
+    "single_z_lower": 1390329.1360756024,
+    "single_z_errors_upper": 493149.78096690576,
+    "leak_ec_bits": 6036653,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": 0.35842162505991176,
+    "length": 0,
+    "status": "phase_abort",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  },
+  {
+    "pulses": 1000000000,
+    "seed": 4,
+    "intercept": 0.8,
+    "nx": [
+      17159944,
+      938539,
+      1731
+    ],
+    "nz": [
+      3154604,
+      171869,
+      332
+    ],
+    "mz": [
+      660702,
+      36273,
+      163
+    ],
+    "raw_bits": 18100214,
+    "test_bits": 3326805,
+    "vacuum_lower": 0.0,
+    "single_x_lower": 8973421.168791274,
+    "single_z_lower": 1380077.9014787776,
+    "single_z_errors_upper": 493392.2925360897,
+    "leak_ec_bits": 6033405,
+    "epsilon_secrecy": 1e-09,
+    "epsilon_correctness": 1e-12,
+    "epsilon_qkd": 1.0010000000000002e-09,
+    "phase_upper": 0.36125133869360804,
+    "length": 0,
+    "status": "phase_abort",
+    "source": "arXiv:1311.7129v1 Eqs 1-5",
+    "raw_key_definition": "all three intensities in X basis"
+  }
+]

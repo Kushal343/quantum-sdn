@@ -1,5 +1,13 @@
 # Qiskit-first SDN/WDM-QKD research prototype
 
+## Mininet / OpenFlow SDN integration
+
+The new [sdn/README.md](sdn/README.md) provides a two-switch, four-channel
+Mininet lab and an OpenFlow 1.3 controller. It connects QKD hold/isolation
+decisions to VLAN-scoped traffic blocking and includes live packet self-tests.
+Linux is required for live execution. On Windows, run
+`.\.runtime\python.exe -m sdn.plan` for a clearly labelled dry run.
+
 Finite-key decoy count estimation is now available via `decoy_finite_demo.py`.
 See [DECOY_FINITEKEY.md](DECOY_FINITEKEY.md) for input requirements, experiments,
 and the remaining end-to-end protocol and independent-review boundaries.

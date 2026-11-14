@@ -13,7 +13,7 @@ dynamic = ["dependencies"]
 dependencies = {file = ["requirements.txt"]}
 
 [tool.setuptools.packages.find]
-include = ["qkd_sdn*"]
+include = ["qkd_sdn*", "sdn*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

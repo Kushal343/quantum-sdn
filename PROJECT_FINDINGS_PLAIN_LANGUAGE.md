@@ -5,6 +5,13 @@
 **Audience:** Readers without a background in quantum technology  
 **Project stage:** Working research simulation; further security validation is required
 
+**SDN update:** The project now also includes code for a Mininet virtual network
+with two software switches and four separate traffic channels. Its controller
+can translate the quantum monitor's stop/pause decisions into OpenFlow traffic
+rules. The software suite now has 61 passing tests. Actual packet forwarding
+still needs to be verified on Linux; it has not been demonstrated on this
+Windows machine. Instructions and the live test are in `sdn/README.md`.
+
 ---
 
 ## 1. What this project is about

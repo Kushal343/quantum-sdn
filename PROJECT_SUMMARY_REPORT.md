@@ -1,5 +1,12 @@
 # Project progress summary: QKD–SDN
 
+SDN integration update: `sdn/` now contains a two-switch/eight-host Mininet
+topology, a central OpenFlow 1.3 flow controller, QKD decision integration, and
+live packet self-tests. All **61 software tests pass**. Live Mininet execution
+is pending a Linux environment; this Windows machine has no installed WSL.
+See `sdn/README.md`. Earlier statements that no Mininet code exists describe
+the project before this addition.
+
 Latest analysis: the three-intensity finite-key decoy estimator and 50-block
 count experiments are implemented. See `DECOY_FINITEKEY.md`. The estimator is
 not a completed end-to-end decoy distillation protocol or an independent review.

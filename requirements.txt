@@ -1,9 +1,0 @@
-qiskit>=2.0,<3
-qiskit-aer>=0.17,<0.19
-numpy>=2.0,<3
-scipy>=1.13,<2
-pandas>=2.2,<4
-scikit-learn>=1.5,<2
-matplotlib>=3.9,<4
-streamlit>=1.40,<2
-pytest>=8,<10

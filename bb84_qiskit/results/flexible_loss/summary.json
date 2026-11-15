@@ -1,0 +1,50 @@
+[
+  {
+    "scenario": "local_loss",
+    "policy": "uncertainty",
+    "runs": 1,
+    "false_hold_run_fraction": 0.0,
+    "false_hold_run_ci": [
+      0.0,
+      0.975
+    ],
+    "false_raw_alarm_run_fraction": 0.0,
+    "false_raw_alarm_run_ci": [
+      0.0,
+      0.975
+    ],
+    "detected_events": 1,
+    "eligible_events": 1,
+    "event_detection_fraction": 1.0,
+    "benign_windows_held": {
+      "n": 1,
+      "mean": 3.0,
+      "lower": null,
+      "upper": null
+    },
+    "signal_detection_fraction_while_held": {
+      "n": 1,
+      "mean": 0.07169892041262677,
+      "lower": null,
+      "upper": null
+    },
+    "delay_among_detected_runs": {
+      "n": 1,
+      "mean": 2.0,
+      "lower": null,
+      "upper": null
+    },
+    "inconclusive_windows": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "controller_microseconds": {
+      "n": 1,
+      "mean": 183.30833333333334,
+      "lower": null,
+      "upper": null
+    }
+  }
+]

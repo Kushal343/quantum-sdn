@@ -1,0 +1,5 @@
+scenario,seed,policy,false_hold_actions,any_false_hold,false_raw_alarm_windows,any_false_raw_alarm,benign_channel_windows_held,target_channel_windows_held,inconclusive_channel_windows,target_raw_alarm_windows,eligible_events,detected_events,missed_events,mean_detection_delay_seconds,hold_actions,restore_actions,signal_detections,signal_detections_while_held,signal_detection_fraction_while_held,mean_controller_microseconds,p95_controller_microseconds
+classical_power,42,passive,0,0,0,0,0,0,0,0,0,0,0,,0,0,19530346,0,0.0,26.373958333333334,41.90999999999999
+classical_power,42,fixed_threshold,1,1,50,1,51,0,0,0,0,0,0,,1,1,19530346,2176035,0.11141814896674129,38.232499999999995,61.834999999999965
+classical_power,42,pointwise,0,0,2,1,0,0,0,0,0,0,0,,0,0,19530346,0,0.0,186.12395833333332,283.69999999999965
+classical_power,42,uncertainty,0,0,0,0,0,0,0,0,0,0,0,,0,0,19530346,0,0.0,283.3304166666666,324.715

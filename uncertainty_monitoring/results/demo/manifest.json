@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "kind": "demo",
+  "created_utc": "2026-11-06T16:49:49.194518+00:00",
+  "seeds": [
+    42
+  ],
+  "package_version": "0.1.0",
+  "python": "3.12.8 (tags/v3.12.8:2dc476b, Dec  3 2024, 19:30:04) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "dependencies": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.2",
+    "matplotlib": "3.10.1"
+  },
+  "config_fingerprint": "2fb6c34f35a10b2f10b745b3549b3495a63bad644d1e6d9dc0daa373a2234711",
+  "source_sha256": {
+    "qkd_monitor\\__init__.py": "c6b801fbead4a851cdd0db9b697e1039ef541fe8c2a5a817dac864757d8ce6e4",
+    "qkd_monitor\\__main__.py": "3129adff95e0f38b87ab34cddfc27082c7892bcaec267ff5d40f160fdf55b44a",
+    "qkd_monitor\\calibration.py": "df206051d490ba6a27e1c9ac5e1862e69c2521c52e8e30b9f1b7465ee1f6f5ac",
+    "qkd_monitor\\cli.py": "3ddd7a823eac29efd6b2013a4923d9106dfab21e39169d3a574d7e19009506b0",
+    "qkd_monitor\\config.py": "c64778e6ee7033b89b88211279f6ca4726515a0eab5ee3442b6340c88ceb96c3",
+    "qkd_monitor\\evaluation.py": "38dc0e3bf3d2e228baeb8a0c7bf8b779388beffdc51fe294c6b6cc37aaef0b07",
+    "qkd_monitor\\io.py": "168e1bfa07d21a307511db44496d43e4f37688e4691fd126cdfb05c9329f8758",
+    "qkd_monitor\\monitor.py": "b98015481f4366d5aee481436ad4aaa08a66c5d4088494b4c334e2dd156b6367",
+    "qkd_monitor\\physics.py": "852e338b3f247d8b69f82fe2b7d34a980a46f88fb7412d0a2d67750bba129d95",
+    "qkd_monitor\\report.py": "5af274dcdcf97afeb1f55dbde24063819328e69a081434d529c54afbba7fe34d",
+    "qkd_monitor\\scenarios.py": "6390ec985bd96a5a26b37d66941922e39d75e3fdbee3f7c91396ecfd93baf237",
+    "qkd_monitor\\statistics.py": "625e40c8a276613c1cf1ae5c3d51f817cb25948e77e5c7e851ef119d914eaf09",
+    "qkd_monitor\\telemetry.py": "f2d70040a2163ffb6227d0040fa4d14a5080a0c2db0fdf94e62f443daea93367"
+  },
+  "security_claim": "No certified key generation or attack attribution; count monitoring only",
+  "run_false_alarm_bound": 0.05,
+  "bound_scope": "One uncertainty-policy horizon, under documented calibration/count model assumptions",
+  "scenarios": [
+    "local_background"
+  ],
+  "calibration_sha256": {
+    "calibration\\seed_42.json": "4bd14801ff041e5a164e54569e942601f5d65ea4e552b19aa82ec25859edf4c1"
+  }
+}

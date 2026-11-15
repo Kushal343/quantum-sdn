@@ -1,0 +1,194 @@
+[
+  {
+    "scenario": "stable",
+    "policy": "fixed_threshold",
+    "runs": 1,
+    "false_hold_run_fraction": 0.0,
+    "false_hold_run_ci": [
+      0.0,
+      0.975
+    ],
+    "false_raw_alarm_run_fraction": 0.0,
+    "false_raw_alarm_run_ci": [
+      0.0,
+      0.975
+    ],
+    "detected_events": 0,
+    "eligible_events": 0,
+    "event_detection_fraction": null,
+    "benign_windows_held": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "signal_detection_fraction_while_held": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "delay_among_detected_runs": {
+      "n": 0,
+      "mean": null,
+      "lower": null,
+      "upper": null
+    },
+    "inconclusive_windows": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "controller_microseconds": {
+      "n": 1,
+      "mean": 28.521875,
+      "lower": null,
+      "upper": null
+    }
+  },
+  {
+    "scenario": "stable",
+    "policy": "passive",
+    "runs": 1,
+    "false_hold_run_fraction": 0.0,
+    "false_hold_run_ci": [
+      0.0,
+      0.975
+    ],
+    "false_raw_alarm_run_fraction": 0.0,
+    "false_raw_alarm_run_ci": [
+      0.0,
+      0.975
+    ],
+    "detected_events": 0,
+    "eligible_events": 0,
+    "event_detection_fraction": null,
+    "benign_windows_held": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "signal_detection_fraction_while_held": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "delay_among_detected_runs": {
+      "n": 0,
+      "mean": null,
+      "lower": null,
+      "upper": null
+    },
+    "inconclusive_windows": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "controller_microseconds": {
+      "n": 1,
+      "mean": 19.005625000000002,
+      "lower": null,
+      "upper": null
+    }
+  },
+  {
+    "scenario": "stable",
+    "policy": "pointwise",
+    "runs": 1,
+    "false_hold_run_fraction": 0.0,
+    "false_hold_run_ci": [
+      0.0,
+      0.975
+    ],
+    "false_raw_alarm_run_fraction": 1.0,
+    "false_raw_alarm_run_ci": [
+      0.025,
+      1.0
+    ],
+    "detected_events": 0,
+    "eligible_events": 0,
+    "event_detection_fraction": null,
+    "benign_windows_held": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "signal_detection_fraction_while_held": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "delay_among_detected_runs": {
+      "n": 0,
+      "mean": null,
+      "lower": null,
+      "upper": null
+    },
+    "inconclusive_windows": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "controller_microseconds": {
+      "n": 1,
+      "mean": 219.05187500000002,
+      "lower": null,
+      "upper": null
+    }
+  },
+  {
+    "scenario": "stable",
+    "policy": "uncertainty",
+    "runs": 1,
+    "false_hold_run_fraction": 0.0,
+    "false_hold_run_ci": [
+      0.0,
+      0.975
+    ],
+    "false_raw_alarm_run_fraction": 0.0,
+    "false_raw_alarm_run_ci": [
+      0.0,
+      0.975
+    ],
+    "detected_events": 0,
+    "eligible_events": 0,
+    "event_detection_fraction": null,
+    "benign_windows_held": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "signal_detection_fraction_while_held": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "delay_among_detected_runs": {
+      "n": 0,
+      "mean": null,
+      "lower": null,
+      "upper": null
+    },
+    "inconclusive_windows": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "controller_microseconds": {
+      "n": 1,
+      "mean": 187.330625,
+      "lower": null,
+      "upper": null
+    }
+  }
+]

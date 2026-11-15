@@ -1,0 +1,194 @@
+[
+  {
+    "scenario": "local_background",
+    "policy": "fixed_threshold",
+    "runs": 1,
+    "false_hold_run_fraction": 0.0,
+    "false_hold_run_ci": [
+      0.0,
+      0.975
+    ],
+    "false_raw_alarm_run_fraction": 0.0,
+    "false_raw_alarm_run_ci": [
+      0.0,
+      0.975
+    ],
+    "detected_events": 1,
+    "eligible_events": 1,
+    "event_detection_fraction": 1.0,
+    "benign_windows_held": {
+      "n": 1,
+      "mean": 3.0,
+      "lower": null,
+      "upper": null
+    },
+    "signal_detection_fraction_while_held": {
+      "n": 1,
+      "mean": 0.10226337258239064,
+      "lower": null,
+      "upper": null
+    },
+    "delay_among_detected_runs": {
+      "n": 1,
+      "mean": 2.0,
+      "lower": null,
+      "upper": null
+    },
+    "inconclusive_windows": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "controller_microseconds": {
+      "n": 1,
+      "mean": 28.363750000000003,
+      "lower": null,
+      "upper": null
+    }
+  },
+  {
+    "scenario": "local_background",
+    "policy": "passive",
+    "runs": 1,
+    "false_hold_run_fraction": 0.0,
+    "false_hold_run_ci": [
+      0.0,
+      0.975
+    ],
+    "false_raw_alarm_run_fraction": 0.0,
+    "false_raw_alarm_run_ci": [
+      0.0,
+      0.975
+    ],
+    "detected_events": 0,
+    "eligible_events": 1,
+    "event_detection_fraction": 0.0,
+    "benign_windows_held": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "signal_detection_fraction_while_held": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "delay_among_detected_runs": {
+      "n": 0,
+      "mean": null,
+      "lower": null,
+      "upper": null
+    },
+    "inconclusive_windows": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "controller_microseconds": {
+      "n": 1,
+      "mean": 19.006874999999997,
+      "lower": null,
+      "upper": null
+    }
+  },
+  {
+    "scenario": "local_background",
+    "policy": "pointwise",
+    "runs": 1,
+    "false_hold_run_fraction": 0.0,
+    "false_hold_run_ci": [
+      0.0,
+      0.975
+    ],
+    "false_raw_alarm_run_fraction": 1.0,
+    "false_raw_alarm_run_ci": [
+      0.025,
+      1.0
+    ],
+    "detected_events": 1,
+    "eligible_events": 1,
+    "event_detection_fraction": 1.0,
+    "benign_windows_held": {
+      "n": 1,
+      "mean": 3.0,
+      "lower": null,
+      "upper": null
+    },
+    "signal_detection_fraction_while_held": {
+      "n": 1,
+      "mean": 0.10226337258239064,
+      "lower": null,
+      "upper": null
+    },
+    "delay_among_detected_runs": {
+      "n": 1,
+      "mean": 2.0,
+      "lower": null,
+      "upper": null
+    },
+    "inconclusive_windows": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "controller_microseconds": {
+      "n": 1,
+      "mean": 197.43875,
+      "lower": null,
+      "upper": null
+    }
+  },
+  {
+    "scenario": "local_background",
+    "policy": "uncertainty",
+    "runs": 1,
+    "false_hold_run_fraction": 0.0,
+    "false_hold_run_ci": [
+      0.0,
+      0.975
+    ],
+    "false_raw_alarm_run_fraction": 0.0,
+    "false_raw_alarm_run_ci": [
+      0.0,
+      0.975
+    ],
+    "detected_events": 1,
+    "eligible_events": 1,
+    "event_detection_fraction": 1.0,
+    "benign_windows_held": {
+      "n": 1,
+      "mean": 3.0,
+      "lower": null,
+      "upper": null
+    },
+    "signal_detection_fraction_while_held": {
+      "n": 1,
+      "mean": 0.10226337258239064,
+      "lower": null,
+      "upper": null
+    },
+    "delay_among_detected_runs": {
+      "n": 1,
+      "mean": 2.0,
+      "lower": null,
+      "upper": null
+    },
+    "inconclusive_windows": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "controller_microseconds": {
+      "n": 1,
+      "mean": 179.125,
+      "lower": null,
+      "upper": null
+    }
+  }
+]

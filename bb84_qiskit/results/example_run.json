@@ -1,0 +1,534 @@
+[
+  {
+    "scenario": "ideal",
+    "backend": "local Qiskit StatevectorSampler",
+    "qiskit_version": "2.6.1",
+    "seed": 42,
+    "settings": {
+      "survival": 1.0,
+      "flip_probability": 0.0,
+      "force_basis_mismatch": false
+    },
+    "emitted": 10000,
+    "detected": 10000,
+    "lost": 0,
+    "detection_gain": 1.0,
+    "discarded_basis_mismatch": 4961,
+    "sifted": 5039,
+    "sifted_errors": 0,
+    "qber": 0.0,
+    "basis_pairs": {
+      "ZZ": {
+        "detections": 2467,
+        "bob_zero": 1205,
+        "bob_one": 1262,
+        "disagreements": 0
+      },
+      "ZX": {
+        "detections": 2555,
+        "bob_zero": 1291,
+        "bob_one": 1264,
+        "disagreements": 1277
+      },
+      "XZ": {
+        "detections": 2406,
+        "bob_zero": 1205,
+        "bob_one": 1201,
+        "disagreements": 1201
+      },
+      "XX": {
+        "detections": 2572,
+        "bob_zero": 1275,
+        "bob_one": 1297,
+        "disagreements": 0
+      }
+    },
+    "circuit_counts": [
+      {
+        "alice_bit": 0,
+        "alice_basis": "X",
+        "bob_basis": "X",
+        "pauli_y_applied": false,
+        "counts": {
+          "0": 1275
+        }
+      },
+      {
+        "alice_bit": 0,
+        "alice_basis": "X",
+        "bob_basis": "Z",
+        "pauli_y_applied": false,
+        "counts": {
+          "1": 615,
+          "0": 619
+        }
+      },
+      {
+        "alice_bit": 0,
+        "alice_basis": "Z",
+        "bob_basis": "X",
+        "pauli_y_applied": false,
+        "counts": {
+          "1": 633,
+          "0": 647
+        }
+      },
+      {
+        "alice_bit": 0,
+        "alice_basis": "Z",
+        "bob_basis": "Z",
+        "pauli_y_applied": false,
+        "counts": {
+          "0": 1205
+        }
+      },
+      {
+        "alice_bit": 1,
+        "alice_basis": "X",
+        "bob_basis": "X",
+        "pauli_y_applied": false,
+        "counts": {
+          "1": 1297
+        }
+      },
+      {
+        "alice_bit": 1,
+        "alice_basis": "X",
+        "bob_basis": "Z",
+        "pauli_y_applied": false,
+        "counts": {
+          "1": 586,
+          "0": 586
+        }
+      },
+      {
+        "alice_bit": 1,
+        "alice_basis": "Z",
+        "bob_basis": "X",
+        "pauli_y_applied": false,
+        "counts": {
+          "1": 631,
+          "0": 644
+        }
+      },
+      {
+        "alice_bit": 1,
+        "alice_basis": "Z",
+        "bob_basis": "Z",
+        "pauli_y_applied": false,
+        "counts": {
+          "1": 1262
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "bit_errors",
+    "backend": "local Qiskit StatevectorSampler",
+    "qiskit_version": "2.6.1",
+    "seed": 42,
+    "settings": {
+      "survival": 1.0,
+      "flip_probability": 0.05,
+      "force_basis_mismatch": false
+    },
+    "emitted": 10000,
+    "detected": 10000,
+    "lost": 0,
+    "detection_gain": 1.0,
+    "discarded_basis_mismatch": 4961,
+    "sifted": 5039,
+    "sifted_errors": 263,
+    "qber": 0.05219289541575709,
+    "basis_pairs": {
+      "ZZ": {
+        "detections": 2467,
+        "bob_zero": 1211,
+        "bob_one": 1256,
+        "disagreements": 132
+      },
+      "ZX": {
+        "detections": 2555,
+        "bob_zero": 1278,
+        "bob_one": 1277,
+        "disagreements": 1276
+      },
+      "XZ": {
+        "detections": 2406,
+        "bob_zero": 1205,
+        "bob_one": 1201,
+        "disagreements": 1205
+      },
+      "XX": {
+        "detections": 2572,
+        "bob_zero": 1280,
+        "bob_one": 1292,
+        "disagreements": 131
+      }
+    },
+    "circuit_counts": [
+      {
+        "alice_bit": 0,
+        "alice_basis": "X",
+        "bob_basis": "X",
+        "pauli_y_applied": false,
+        "counts": {
+          "0": 1212
+        }
+      },
+      {
+        "alice_bit": 0,
+        "alice_basis": "X",
+        "bob_basis": "X",
+        "pauli_y_applied": true,
+        "counts": {
+          "1": 63
+        }
+      },
+      {
+        "alice_bit": 0,
+        "alice_basis": "X",
+        "bob_basis": "Z",
+        "pauli_y_applied": false,
+        "counts": {
+          "1": 586,
+          "0": 587
+        }
+      },
+      {
+        "alice_bit": 0,
+        "alice_basis": "X",
+        "bob_basis": "Z",
+        "pauli_y_applied": true,
+        "counts": {
+          "1": 31,
+          "0": 30
+        }
+      },
+      {
+        "alice_bit": 0,
+        "alice_basis": "Z",
+        "bob_basis": "X",
+        "pauli_y_applied": false,
+        "counts": {
+          "1": 612,
+          "0": 614
+        }
+      },
+      {
+        "alice_bit": 0,
+        "alice_basis": "Z",
+        "bob_basis": "X",
+        "pauli_y_applied": true,
+        "counts": {
+          "1": 27,
+          "0": 27
+        }
+      },
+      {
+        "alice_bit": 0,
+        "alice_basis": "Z",
+        "bob_basis": "Z",
+        "pauli_y_applied": false,
+        "counts": {
+          "0": 1142
+        }
+      },
+      {
+        "alice_bit": 0,
+        "alice_basis": "Z",
+        "bob_basis": "Z",
+        "pauli_y_applied": true,
+        "counts": {
+          "1": 63
+        }
+      },
+      {
+        "alice_bit": 1,
+        "alice_basis": "X",
+        "bob_basis": "X",
+        "pauli_y_applied": false,
+        "counts": {
+          "1": 1229
+        }
+      },
+      {
+        "alice_bit": 1,
+        "alice_basis": "X",
+        "bob_basis": "X",
+        "pauli_y_applied": true,
+        "counts": {
+          "0": 68
+        }
+      },
+      {
+        "alice_bit": 1,
+        "alice_basis": "X",
+        "bob_basis": "Z",
+        "pauli_y_applied": false,
+        "counts": {
+          "1": 554,
+          "0": 559
+        }
+      },
+      {
+        "alice_bit": 1,
+        "alice_basis": "X",
+        "bob_basis": "Z",
+        "pauli_y_applied": true,
+        "counts": {
+          "1": 30,
+          "0": 29
+        }
+      },
+      {
+        "alice_bit": 1,
+        "alice_basis": "Z",
+        "bob_basis": "X",
+        "pauli_y_applied": false,
+        "counts": {
+          "1": 603,
+          "0": 606
+        }
+      },
+      {
+        "alice_bit": 1,
+        "alice_basis": "Z",
+        "bob_basis": "X",
+        "pauli_y_applied": true,
+        "counts": {
+          "1": 35,
+          "0": 31
+        }
+      },
+      {
+        "alice_bit": 1,
+        "alice_basis": "Z",
+        "bob_basis": "Z",
+        "pauli_y_applied": false,
+        "counts": {
+          "1": 1193
+        }
+      },
+      {
+        "alice_bit": 1,
+        "alice_basis": "Z",
+        "bob_basis": "Z",
+        "pauli_y_applied": true,
+        "counts": {
+          "0": 69
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "loss",
+    "backend": "local Qiskit StatevectorSampler",
+    "qiskit_version": "2.6.1",
+    "seed": 42,
+    "settings": {
+      "survival": 0.5,
+      "flip_probability": 0.0,
+      "force_basis_mismatch": false
+    },
+    "emitted": 10000,
+    "detected": 5068,
+    "lost": 4932,
+    "detection_gain": 0.5068,
+    "discarded_basis_mismatch": 2536,
+    "sifted": 2532,
+    "sifted_errors": 0,
+    "qber": 0.0,
+    "basis_pairs": {
+      "ZZ": {
+        "detections": 1273,
+        "bob_zero": 615,
+        "bob_one": 658,
+        "disagreements": 0
+      },
+      "ZX": {
+        "detections": 1317,
+        "bob_zero": 647,
+        "bob_one": 670,
+        "disagreements": 659
+      },
+      "XZ": {
+        "detections": 1219,
+        "bob_zero": 604,
+        "bob_one": 615,
+        "disagreements": 614
+      },
+      "XX": {
+        "detections": 1259,
+        "bob_zero": 626,
+        "bob_one": 633,
+        "disagreements": 0
+      }
+    },
+    "circuit_counts": [
+      {
+        "alice_bit": 0,
+        "alice_basis": "X",
+        "bob_basis": "X",
+        "pauli_y_applied": false,
+        "counts": {
+          "0": 626
+        }
+      },
+      {
+        "alice_bit": 0,
+        "alice_basis": "X",
+        "bob_basis": "Z",
+        "pauli_y_applied": false,
+        "counts": {
+          "1": 321,
+          "0": 311
+        }
+      },
+      {
+        "alice_bit": 0,
+        "alice_basis": "Z",
+        "bob_basis": "X",
+        "pauli_y_applied": false,
+        "counts": {
+          "1": 333,
+          "0": 321
+        }
+      },
+      {
+        "alice_bit": 0,
+        "alice_basis": "Z",
+        "bob_basis": "Z",
+        "pauli_y_applied": false,
+        "counts": {
+          "0": 615
+        }
+      },
+      {
+        "alice_bit": 1,
+        "alice_basis": "X",
+        "bob_basis": "X",
+        "pauli_y_applied": false,
+        "counts": {
+          "1": 633
+        }
+      },
+      {
+        "alice_bit": 1,
+        "alice_basis": "X",
+        "bob_basis": "Z",
+        "pauli_y_applied": false,
+        "counts": {
+          "1": 294,
+          "0": 293
+        }
+      },
+      {
+        "alice_bit": 1,
+        "alice_basis": "Z",
+        "bob_basis": "X",
+        "pauli_y_applied": false,
+        "counts": {
+          "1": 337,
+          "0": 326
+        }
+      },
+      {
+        "alice_bit": 1,
+        "alice_basis": "Z",
+        "bob_basis": "Z",
+        "pauli_y_applied": false,
+        "counts": {
+          "1": 658
+        }
+      }
+    ]
+  },
+  {
+    "scenario": "basis_mismatch",
+    "backend": "local Qiskit StatevectorSampler",
+    "qiskit_version": "2.6.1",
+    "seed": 42,
+    "settings": {
+      "survival": 1.0,
+      "flip_probability": 0.0,
+      "force_basis_mismatch": true
+    },
+    "emitted": 10000,
+    "detected": 10000,
+    "lost": 0,
+    "detection_gain": 1.0,
+    "discarded_basis_mismatch": 10000,
+    "sifted": 0,
+    "sifted_errors": 0,
+    "qber": null,
+    "basis_pairs": {
+      "ZZ": {
+        "detections": 0,
+        "bob_zero": 0,
+        "bob_one": 0,
+        "disagreements": 0
+      },
+      "ZX": {
+        "detections": 5022,
+        "bob_zero": 2545,
+        "bob_one": 2477,
+        "disagreements": 2506
+      },
+      "XZ": {
+        "detections": 4978,
+        "bob_zero": 2523,
+        "bob_one": 2455,
+        "disagreements": 2490
+      },
+      "XX": {
+        "detections": 0,
+        "bob_zero": 0,
+        "bob_one": 0,
+        "disagreements": 0
+      }
+    },
+    "circuit_counts": [
+      {
+        "alice_bit": 0,
+        "alice_basis": "X",
+        "bob_basis": "Z",
+        "pauli_y_applied": false,
+        "counts": {
+          "1": 1238,
+          "0": 1271
+        }
+      },
+      {
+        "alice_bit": 0,
+        "alice_basis": "Z",
+        "bob_basis": "X",
+        "pauli_y_applied": false,
+        "counts": {
+          "1": 1223,
+          "0": 1262
+        }
+      },
+      {
+        "alice_bit": 1,
+        "alice_basis": "X",
+        "bob_basis": "Z",
+        "pauli_y_applied": false,
+        "counts": {
+          "1": 1217,
+          "0": 1252
+        }
+      },
+      {
+        "alice_bit": 1,
+        "alice_basis": "Z",
+        "bob_basis": "X",
+        "pauli_y_applied": false,
+        "counts": {
+          "1": 1254,
+          "0": 1283
+        }
+      }
+    ]
+  }
+]

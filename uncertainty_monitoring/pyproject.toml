@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wdm-qkd-monitor"
+version = "0.1.0"
+description = "Reproducible uncertainty-aware monitoring of fixed-configuration WDM-QKD count telemetry"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26,<3", "scipy>=1.15,<2", "matplotlib>=3.9,<4"]
+
+[project.scripts]
+qkd-monitor = "qkd_monitor.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["qkd_monitor*"]

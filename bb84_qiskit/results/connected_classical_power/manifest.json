@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "scenario": "classical_power",
+  "seed": 42,
+  "model": "Python optical detection model plus Qiskit BB84 Y channel and sifting",
+  "count_definition": "emitted pulses; basis-matched detections and errors",
+  "backend": "local StatevectorSampler",
+  "config_fingerprint": "fc9007a0203507f0518472cd743745d6608778d16056d471da606154b92996a3",
+  "versions": {
+    "qiskit": "2.6.1",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "source_sha256": {
+    "uncertainty_monitoring\\qkd_monitor\\calibration.py": "df206051d490ba6a27e1c9ac5e1862e69c2521c52e8e30b9f1b7465ee1f6f5ac",
+    "uncertainty_monitoring\\qkd_monitor\\cli.py": "3ddd7a823eac29efd6b2013a4923d9106dfab21e39169d3a574d7e19009506b0",
+    "uncertainty_monitoring\\qkd_monitor\\config.py": "c64778e6ee7033b89b88211279f6ca4726515a0eab5ee3442b6340c88ceb96c3",
+    "uncertainty_monitoring\\qkd_monitor\\evaluation.py": "38dc0e3bf3d2e228baeb8a0c7bf8b779388beffdc51fe294c6b6cc37aaef0b07",
+    "uncertainty_monitoring\\qkd_monitor\\io.py": "168e1bfa07d21a307511db44496d43e4f37688e4691fd126cdfb05c9329f8758",
+    "uncertainty_monitoring\\qkd_monitor\\monitor.py": "b98015481f4366d5aee481436ad4aaa08a66c5d4088494b4c334e2dd156b6367",
+    "uncertainty_monitoring\\qkd_monitor\\physics.py": "852e338b3f247d8b69f82fe2b7d34a980a46f88fb7412d0a2d67750bba129d95",
+    "uncertainty_monitoring\\qkd_monitor\\report.py": "5af274dcdcf97afeb1f55dbde24063819328e69a081434d529c54afbba7fe34d",
+    "uncertainty_monitoring\\qkd_monitor\\scenarios.py": "6390ec985bd96a5a26b37d66941922e39d75e3fdbee3f7c91396ecfd93baf237",
+    "uncertainty_monitoring\\qkd_monitor\\statistics.py": "625e40c8a276613c1cf1ae5c3d51f817cb25948e77e5c7e851ef119d914eaf09",
+    "uncertainty_monitoring\\qkd_monitor\\telemetry.py": "f2d70040a2163ffb6227d0040fa4d14a5080a0c2db0fdf94e62f443daea93367",
+    "uncertainty_monitoring\\qkd_monitor\\__init__.py": "c6b801fbead4a851cdd0db9b697e1039ef541fe8c2a5a817dac864757d8ce6e4",
+    "uncertainty_monitoring\\qkd_monitor\\__main__.py": "3129adff95e0f38b87ab34cddfc27082c7892bcaec267ff5d40f160fdf55b44a",
+    "bb84_qiskit\\monitor.py": "df1d0490af64b787db1f3e901ed24902f1dfeebc5f0757366ecc34a46b212afa",
+    "bb84_qiskit\\simulate.py": "fe10a894eade4a12f8b00b83dcffb64dfe26bf6807e8a2ae254a32e06565f6d5"
+  }
+}

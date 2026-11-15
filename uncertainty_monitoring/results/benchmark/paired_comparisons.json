@@ -1,0 +1,802 @@
+[
+  {
+    "scenario": "classical_power",
+    "reference": "fixed_threshold",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": -51.0,
+    "lower": -51.0,
+    "upper": -51.0
+  },
+  {
+    "scenario": "classical_power",
+    "reference": "fixed_threshold",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": -1.0,
+    "lower": -1.0,
+    "upper": -1.0
+  },
+  {
+    "scenario": "classical_power",
+    "reference": "fixed_threshold",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": -50.0,
+    "lower": -50.0,
+    "upper": -50.0
+  },
+  {
+    "scenario": "classical_power",
+    "reference": "fixed_threshold",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": -0.11140241432113583,
+    "lower": -0.11142935368744267,
+    "upper": -0.111375474954829
+  },
+  {
+    "scenario": "classical_power",
+    "reference": "pointwise",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.4,
+    "lower": -0.7873109265364241,
+    "upper": -0.01268907346357595
+  },
+  {
+    "scenario": "classical_power",
+    "reference": "pointwise",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.13333333333333333,
+    "lower": -0.26243697551214135,
+    "upper": -0.004229691154525317
+  },
+  {
+    "scenario": "classical_power",
+    "reference": "pointwise",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -6.5,
+    "lower": -7.27679123238421,
+    "upper": -5.72320876761579
+  },
+  {
+    "scenario": "classical_power",
+    "reference": "pointwise",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.0008280296530961014,
+    "lower": -0.0016298163122339163,
+    "upper": -2.6242993958286334e-05
+  },
+  {
+    "scenario": "common_loss",
+    "reference": "fixed_threshold",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "common_loss",
+    "reference": "fixed_threshold",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "common_loss",
+    "reference": "fixed_threshold",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "common_loss",
+    "reference": "fixed_threshold",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "common_loss",
+    "reference": "pointwise",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.5,
+    "lower": -0.9013329853792147,
+    "upper": -0.09866701462078536
+  },
+  {
+    "scenario": "common_loss",
+    "reference": "pointwise",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.06666666666666667,
+    "lower": -0.16140283998979837,
+    "upper": 0.028069506656465057
+  },
+  {
+    "scenario": "common_loss",
+    "reference": "pointwise",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -3.8666666666666667,
+    "lower": -4.611760152464564,
+    "upper": -3.12157318086877
+  },
+  {
+    "scenario": "common_loss",
+    "reference": "pointwise",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.0014358090630347967,
+    "lower": -0.002522771503555673,
+    "upper": -0.0003488466225139205
+  },
+  {
+    "scenario": "gradual_drift",
+    "reference": "fixed_threshold",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "gradual_drift",
+    "reference": "fixed_threshold",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "gradual_drift",
+    "reference": "fixed_threshold",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "gradual_drift",
+    "reference": "fixed_threshold",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.023400713903212352,
+    "lower": 0.022441989656630586,
+    "upper": 0.02435943814979412
+  },
+  {
+    "scenario": "gradual_drift",
+    "reference": "pointwise",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.36666666666666664,
+    "lower": -0.7267442503589958,
+    "upper": -0.006589082974337412
+  },
+  {
+    "scenario": "gradual_drift",
+    "reference": "pointwise",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.1,
+    "lower": -0.21393688301366892,
+    "upper": 0.013936883013668896
+  },
+  {
+    "scenario": "gradual_drift",
+    "reference": "pointwise",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -5.933333333333334,
+    "lower": -6.91851145353613,
+    "upper": -4.948155213130537
+  },
+  {
+    "scenario": "gradual_drift",
+    "reference": "pointwise",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.004275512078490315,
+    "lower": -0.005408800311029463,
+    "upper": -0.003142223845951168
+  },
+  {
+    "scenario": "local_background",
+    "reference": "fixed_threshold",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "local_background",
+    "reference": "fixed_threshold",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "local_background",
+    "reference": "fixed_threshold",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "local_background",
+    "reference": "fixed_threshold",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "local_background",
+    "reference": "pointwise",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.36666666666666664,
+    "lower": -0.7267442503589958,
+    "upper": -0.006589082974337412
+  },
+  {
+    "scenario": "local_background",
+    "reference": "pointwise",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.1,
+    "lower": -0.21393688301366892,
+    "upper": 0.013936883013668896
+  },
+  {
+    "scenario": "local_background",
+    "reference": "pointwise",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -5.933333333333334,
+    "lower": -6.91851145353613,
+    "upper": -4.948155213130537
+  },
+  {
+    "scenario": "local_background",
+    "reference": "pointwise",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.0007560011044956858,
+    "lower": -0.0014981830911532845,
+    "upper": -1.3819117838087145e-05
+  },
+  {
+    "scenario": "local_loss",
+    "reference": "fixed_threshold",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "local_loss",
+    "reference": "fixed_threshold",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "local_loss",
+    "reference": "fixed_threshold",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "local_loss",
+    "reference": "fixed_threshold",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "local_loss",
+    "reference": "pointwise",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.36666666666666664,
+    "lower": -0.7267442503589958,
+    "upper": -0.006589082974337412
+  },
+  {
+    "scenario": "local_loss",
+    "reference": "pointwise",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.1,
+    "lower": -0.21393688301366892,
+    "upper": 0.013936883013668896
+  },
+  {
+    "scenario": "local_loss",
+    "reference": "pointwise",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -5.933333333333334,
+    "lower": -6.91851145353613,
+    "upper": -4.948155213130537
+  },
+  {
+    "scenario": "local_loss",
+    "reference": "pointwise",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.0008063177525953241,
+    "lower": -0.001597897456996239,
+    "upper": -1.473804819440911e-05
+  },
+  {
+    "scenario": "off_grid",
+    "reference": "fixed_threshold",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "off_grid",
+    "reference": "fixed_threshold",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "off_grid",
+    "reference": "fixed_threshold",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "off_grid",
+    "reference": "fixed_threshold",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "off_grid",
+    "reference": "pointwise",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.36666666666666664,
+    "lower": -0.7995083530106817,
+    "upper": 0.06617501967734835
+  },
+  {
+    "scenario": "off_grid",
+    "reference": "pointwise",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.1,
+    "lower": -0.21393688301366892,
+    "upper": 0.013936883013668896
+  },
+  {
+    "scenario": "off_grid",
+    "reference": "pointwise",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -3.8666666666666667,
+    "lower": -4.611760152464564,
+    "upper": -3.12157318086877
+  },
+  {
+    "scenario": "off_grid",
+    "reference": "pointwise",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.004239779501085278,
+    "lower": -0.012050635596665908,
+    "upper": 0.003571076594495351
+  },
+  {
+    "scenario": "passive_tap",
+    "reference": "fixed_threshold",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "passive_tap",
+    "reference": "fixed_threshold",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "passive_tap",
+    "reference": "fixed_threshold",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "passive_tap",
+    "reference": "fixed_threshold",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "passive_tap",
+    "reference": "pointwise",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.36666666666666664,
+    "lower": -0.7267442503589958,
+    "upper": -0.006589082974337412
+  },
+  {
+    "scenario": "passive_tap",
+    "reference": "pointwise",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.1,
+    "lower": -0.21393688301366892,
+    "upper": 0.013936883013668896
+  },
+  {
+    "scenario": "passive_tap",
+    "reference": "pointwise",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -5.933333333333334,
+    "lower": -6.91851145353613,
+    "upper": -4.948155213130537
+  },
+  {
+    "scenario": "passive_tap",
+    "reference": "pointwise",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.0008063177525953241,
+    "lower": -0.001597897456996239,
+    "upper": -1.473804819440911e-05
+  },
+  {
+    "scenario": "stable",
+    "reference": "fixed_threshold",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "stable",
+    "reference": "fixed_threshold",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "stable",
+    "reference": "fixed_threshold",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "stable",
+    "reference": "fixed_threshold",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "stable",
+    "reference": "pointwise",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.4,
+    "lower": -0.7873109265364241,
+    "upper": -0.01268907346357595
+  },
+  {
+    "scenario": "stable",
+    "reference": "pointwise",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.13333333333333333,
+    "lower": -0.26243697551214135,
+    "upper": -0.004229691154525317
+  },
+  {
+    "scenario": "stable",
+    "reference": "pointwise",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -6.7,
+    "lower": -7.885487174551027,
+    "upper": -5.514512825448973
+  },
+  {
+    "scenario": "stable",
+    "reference": "pointwise",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.0008352293852531197,
+    "lower": -0.0016439762722185764,
+    "upper": -2.6482498287663065e-05
+  },
+  {
+    "scenario": "telemetry_gap",
+    "reference": "fixed_threshold",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "telemetry_gap",
+    "reference": "fixed_threshold",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "telemetry_gap",
+    "reference": "fixed_threshold",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "telemetry_gap",
+    "reference": "fixed_threshold",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "telemetry_gap",
+    "reference": "pointwise",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.4,
+    "lower": -0.7873109265364241,
+    "upper": -0.01268907346357595
+  },
+  {
+    "scenario": "telemetry_gap",
+    "reference": "pointwise",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.13333333333333333,
+    "lower": -0.26243697551214135,
+    "upper": -0.004229691154525317
+  },
+  {
+    "scenario": "telemetry_gap",
+    "reference": "pointwise",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -6.7,
+    "lower": -7.885487174551027,
+    "upper": -5.514512825448973
+  },
+  {
+    "scenario": "telemetry_gap",
+    "reference": "pointwise",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.0008405203120542438,
+    "lower": -0.0016543904344321332,
+    "upper": -2.665018967635429e-05
+  },
+  {
+    "scenario": "transient",
+    "reference": "fixed_threshold",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "transient",
+    "reference": "fixed_threshold",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "transient",
+    "reference": "fixed_threshold",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "transient",
+    "reference": "fixed_threshold",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 30,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "transient",
+    "reference": "pointwise",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.4,
+    "lower": -0.7873109265364241,
+    "upper": -0.01268907346357595
+  },
+  {
+    "scenario": "transient",
+    "reference": "pointwise",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.13333333333333333,
+    "lower": -0.26243697551214135,
+    "upper": -0.004229691154525317
+  },
+  {
+    "scenario": "transient",
+    "reference": "pointwise",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -6.7,
+    "lower": -7.885487174551027,
+    "upper": -5.514512825448973
+  },
+  {
+    "scenario": "transient",
+    "reference": "pointwise",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 30,
+    "mean": -0.0008350272615910102,
+    "lower": -0.0016435784352124782,
+    "upper": -2.647608796954202e-05
+  }
+]

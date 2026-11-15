@@ -1,0 +1,162 @@
+[
+  {
+    "scenario": "classical_power",
+    "reference": "fixed_threshold",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 100,
+    "mean": -51.0,
+    "lower": -51.0,
+    "upper": -51.0
+  },
+  {
+    "scenario": "classical_power",
+    "reference": "fixed_threshold",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 100,
+    "mean": -1.0,
+    "lower": -1.0,
+    "upper": -1.0
+  },
+  {
+    "scenario": "classical_power",
+    "reference": "fixed_threshold",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 100,
+    "mean": -50.0,
+    "lower": -50.0,
+    "upper": -50.0
+  },
+  {
+    "scenario": "classical_power",
+    "reference": "fixed_threshold",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 100,
+    "mean": -0.11139869137709485,
+    "lower": -0.11141085321931898,
+    "upper": -0.11138652953487072
+  },
+  {
+    "scenario": "classical_power",
+    "reference": "pointwise",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 100,
+    "mean": -0.33,
+    "lower": -0.5171906528243979,
+    "upper": -0.14280934717560212
+  },
+  {
+    "scenario": "classical_power",
+    "reference": "pointwise",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus pointwise",
+    "n": 100,
+    "mean": -0.11,
+    "lower": -0.1723968842747993,
+    "upper": -0.047603115725200706
+  },
+  {
+    "scenario": "classical_power",
+    "reference": "pointwise",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus pointwise",
+    "n": 100,
+    "mean": -6.36,
+    "lower": -6.84152709979519,
+    "upper": -5.878472900204811
+  },
+  {
+    "scenario": "classical_power",
+    "reference": "pointwise",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 100,
+    "mean": -0.0006901078628219455,
+    "lower": -0.0010816959524887549,
+    "upper": -0.00029851977315513623
+  },
+  {
+    "scenario": "stable",
+    "reference": "fixed_threshold",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 100,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "stable",
+    "reference": "fixed_threshold",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 100,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "stable",
+    "reference": "fixed_threshold",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 100,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "stable",
+    "reference": "fixed_threshold",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 100,
+    "mean": 0.0,
+    "lower": 0.0,
+    "upper": 0.0
+  },
+  {
+    "scenario": "stable",
+    "reference": "pointwise",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 100,
+    "mean": -0.21,
+    "lower": -0.36264525448467466,
+    "upper": -0.057354745515325295
+  },
+  {
+    "scenario": "stable",
+    "reference": "pointwise",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus pointwise",
+    "n": 100,
+    "mean": -0.07,
+    "lower": -0.12088175149489158,
+    "upper": -0.01911824850510844
+  },
+  {
+    "scenario": "stable",
+    "reference": "pointwise",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus pointwise",
+    "n": 100,
+    "mean": -6.26,
+    "lower": -6.714418107732484,
+    "upper": -5.805581892267516
+  },
+  {
+    "scenario": "stable",
+    "reference": "pointwise",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 100,
+    "mean": -0.00043727555863515305,
+    "lower": -0.0007551271946855669,
+    "upper": -0.00011942392258473925
+  }
+]

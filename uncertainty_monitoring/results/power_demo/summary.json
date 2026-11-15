@@ -1,0 +1,194 @@
+[
+  {
+    "scenario": "classical_power",
+    "policy": "fixed_threshold",
+    "runs": 1,
+    "false_hold_run_fraction": 1.0,
+    "false_hold_run_ci": [
+      0.025,
+      1.0
+    ],
+    "false_raw_alarm_run_fraction": 1.0,
+    "false_raw_alarm_run_ci": [
+      0.025,
+      1.0
+    ],
+    "detected_events": 0,
+    "eligible_events": 0,
+    "event_detection_fraction": null,
+    "benign_windows_held": {
+      "n": 1,
+      "mean": 51.0,
+      "lower": null,
+      "upper": null
+    },
+    "signal_detection_fraction_while_held": {
+      "n": 1,
+      "mean": 0.11141814896674129,
+      "lower": null,
+      "upper": null
+    },
+    "delay_among_detected_runs": {
+      "n": 0,
+      "mean": null,
+      "lower": null,
+      "upper": null
+    },
+    "inconclusive_windows": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "controller_microseconds": {
+      "n": 1,
+      "mean": 38.232499999999995,
+      "lower": null,
+      "upper": null
+    }
+  },
+  {
+    "scenario": "classical_power",
+    "policy": "passive",
+    "runs": 1,
+    "false_hold_run_fraction": 0.0,
+    "false_hold_run_ci": [
+      0.0,
+      0.975
+    ],
+    "false_raw_alarm_run_fraction": 0.0,
+    "false_raw_alarm_run_ci": [
+      0.0,
+      0.975
+    ],
+    "detected_events": 0,
+    "eligible_events": 0,
+    "event_detection_fraction": null,
+    "benign_windows_held": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "signal_detection_fraction_while_held": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "delay_among_detected_runs": {
+      "n": 0,
+      "mean": null,
+      "lower": null,
+      "upper": null
+    },
+    "inconclusive_windows": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "controller_microseconds": {
+      "n": 1,
+      "mean": 26.373958333333334,
+      "lower": null,
+      "upper": null
+    }
+  },
+  {
+    "scenario": "classical_power",
+    "policy": "pointwise",
+    "runs": 1,
+    "false_hold_run_fraction": 0.0,
+    "false_hold_run_ci": [
+      0.0,
+      0.975
+    ],
+    "false_raw_alarm_run_fraction": 1.0,
+    "false_raw_alarm_run_ci": [
+      0.025,
+      1.0
+    ],
+    "detected_events": 0,
+    "eligible_events": 0,
+    "event_detection_fraction": null,
+    "benign_windows_held": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "signal_detection_fraction_while_held": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "delay_among_detected_runs": {
+      "n": 0,
+      "mean": null,
+      "lower": null,
+      "upper": null
+    },
+    "inconclusive_windows": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "controller_microseconds": {
+      "n": 1,
+      "mean": 186.12395833333332,
+      "lower": null,
+      "upper": null
+    }
+  },
+  {
+    "scenario": "classical_power",
+    "policy": "uncertainty",
+    "runs": 1,
+    "false_hold_run_fraction": 0.0,
+    "false_hold_run_ci": [
+      0.0,
+      0.975
+    ],
+    "false_raw_alarm_run_fraction": 0.0,
+    "false_raw_alarm_run_ci": [
+      0.0,
+      0.975
+    ],
+    "detected_events": 0,
+    "eligible_events": 0,
+    "event_detection_fraction": null,
+    "benign_windows_held": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "signal_detection_fraction_while_held": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "delay_among_detected_runs": {
+      "n": 0,
+      "mean": null,
+      "lower": null,
+      "upper": null
+    },
+    "inconclusive_windows": {
+      "n": 1,
+      "mean": 0.0,
+      "lower": null,
+      "upper": null
+    },
+    "controller_microseconds": {
+      "n": 1,
+      "mean": 283.3304166666666,
+      "lower": null,
+      "upper": null
+    }
+  }
+]

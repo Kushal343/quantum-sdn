@@ -1,0 +1,82 @@
+[
+  {
+    "scenario": "local_loss",
+    "reference": "fixed_threshold",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 1,
+    "mean": 0.0,
+    "lower": null,
+    "upper": null
+  },
+  {
+    "scenario": "local_loss",
+    "reference": "fixed_threshold",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 1,
+    "mean": 0.0,
+    "lower": null,
+    "upper": null
+  },
+  {
+    "scenario": "local_loss",
+    "reference": "fixed_threshold",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 1,
+    "mean": 0.0,
+    "lower": null,
+    "upper": null
+  },
+  {
+    "scenario": "local_loss",
+    "reference": "fixed_threshold",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus fixed_threshold",
+    "n": 1,
+    "mean": 0.0,
+    "lower": null,
+    "upper": null
+  },
+  {
+    "scenario": "local_loss",
+    "reference": "pointwise",
+    "metric": "benign_channel_windows_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 1,
+    "mean": 0.0,
+    "lower": null,
+    "upper": null
+  },
+  {
+    "scenario": "local_loss",
+    "reference": "pointwise",
+    "metric": "false_hold_actions",
+    "difference": "uncertainty minus pointwise",
+    "n": 1,
+    "mean": 0.0,
+    "lower": null,
+    "upper": null
+  },
+  {
+    "scenario": "local_loss",
+    "reference": "pointwise",
+    "metric": "false_raw_alarm_windows",
+    "difference": "uncertainty minus pointwise",
+    "n": 1,
+    "mean": -2.0,
+    "lower": null,
+    "upper": null
+  },
+  {
+    "scenario": "local_loss",
+    "reference": "pointwise",
+    "metric": "signal_detection_fraction_while_held",
+    "difference": "uncertainty minus pointwise",
+    "n": 1,
+    "mean": 0.0,
+    "lower": null,
+    "upper": null
+  }
+]

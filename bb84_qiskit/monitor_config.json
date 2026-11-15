@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "wavelengths_nm": [
+    1530.33,
+    1531.12,
+    1531.9,
+    1532.68
+  ],
+  "classical_wavelengths_nm": [
+    1550.12,
+    1550.92
+  ],
+  "intensities": [
+    0.5,
+    0.1,
+    0.0
+  ],
+  "intensity_probabilities": [
+    0.8,
+    0.15,
+    0.05
+  ],
+  "config_version": "qiskit-sifted-v1",
+  "fibre_length_km": 25.0,
+  "attenuation_db_per_km": 0.2,
+  "insertion_loss_db": 1.0,
+  "detector_efficiency": 0.2,
+  "dark_probability_per_gate": 2e-06,
+  "misalignment_error": 0.015,
+  "background_coupling_per_mw": [
+    [
+      0.0002,
+      4e-05
+    ],
+    [
+      0.0001,
+      8e-05
+    ],
+    [
+      0.0004,
+      0.0001
+    ],
+    [
+      8e-05,
+      0.00015
+    ]
+  ],
+  "classical_power_grid_mw": [
+    0.0,
+    1.0,
+    4.0
+  ],
+  "nominal_classical_powers_mw": [
+    1.0,
+    1.0
+  ],
+  "pulses_per_window": 200000,
+  "window_seconds": 1.0,
+  "windows": 40,
+  "calibration_pulses_per_context": 2000000,
+  "alpha_run": 0.05,
+  "calibration_failure_budget": 0.005,
+  "anomaly_persistence": 2,
+  "recovery_windows": 3,
+  "minimum_pulses": 10000,
+  "fixed_qber_threshold": 0.04,
+  "fixed_gain_fraction": 0.75,
+  "event_start": 12,
+  "event_end": 26
+}

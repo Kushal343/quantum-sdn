@@ -1,7 +1,11 @@
-.runtime/
-python-runtime.zip
-__pycache__/
-.pytest_cache/
-.cache/
 .venv/
-.venv-sdn/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.pytest_cache/
+tests/.tmp/
+*.egg-info/
+build/
+dist/

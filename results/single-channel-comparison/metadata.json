@@ -1,0 +1,15 @@
+{
+  "seeds": 50,
+  "steps": 40,
+  "runtime_seed_start": 9100,
+  "calibration_seed_start": 19100,
+  "distance_km": 24,
+  "onset": 6,
+  "engine": "binomial",
+  "ml": false,
+  "scope": "Asymptotic estimated output, no secure keys or live SDN; reconstructed fixed-C3 baseline, not recovered historical single-channel implementation",
+  "single_channel": "Crosstalk removed; dark and classical Raman-like background retained; fixed C3, illustrative 11% cap",
+  "resource_budget": "single_1M:40M pulses/run; other arms:160M pulses/run; same 40 intervals",
+  "disturbance": "local affects lambda_3 of WDM and sole single channel; shared affects all WDM channels",
+  "uncertainty": "Descriptive paired bootstrap over seed labels; random streams diverge across architectures; no multiplicity correction"
+}

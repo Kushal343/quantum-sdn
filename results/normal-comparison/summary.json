@@ -1,0 +1,137 @@
+{
+  "seeds": 50,
+  "steps": 40,
+  "pulses": 1000000,
+  "normal_misalignment": 0.015,
+  "runtime_seed_start": 7100,
+  "calibration_seed_start": 15100,
+  "calibration_contexts": "same expanded grid as original Pareto alignment cohort",
+  "scope": "Matched operational binomial-model reference; asymptotic estimates, not distilled secure keys",
+  "summary": [
+    {
+      "suite": "matched_normal",
+      "case": "normal",
+      "policy": "hybrid",
+      "runs": 50,
+      "mean_estimated_bits": 816210.2608817173,
+      "mean_target_qber": 0.0157872318,
+      "mean_retunes": 0.0,
+      "mean_rollbacks": 0.0,
+      "isolated_runs": 0,
+      "target_isolated": 0,
+      "other_isolated": 0,
+      "hold_runs": 0,
+      "mean_target_delay": null
+    },
+    {
+      "suite": "matched_normal",
+      "case": "normal",
+      "policy": "pareto",
+      "runs": 50,
+      "mean_estimated_bits": 816210.2608817173,
+      "mean_target_qber": 0.0157872318,
+      "mean_retunes": 0.0,
+      "mean_rollbacks": 0.0,
+      "isolated_runs": 0,
+      "target_isolated": 0,
+      "other_isolated": 0,
+      "hold_runs": 0,
+      "mean_target_delay": null
+    },
+    {
+      "suite": "matched_normal",
+      "case": "normal",
+      "policy": "pareto_front",
+      "runs": 50,
+      "mean_estimated_bits": 816210.2608817173,
+      "mean_target_qber": 0.0157872318,
+      "mean_retunes": 0.0,
+      "mean_rollbacks": 0.0,
+      "isolated_runs": 0,
+      "target_isolated": 0,
+      "other_isolated": 0,
+      "hold_runs": 0,
+      "mean_target_delay": null
+    },
+    {
+      "suite": "matched_normal",
+      "case": "normal",
+      "policy": "uncertainty",
+      "runs": 50,
+      "mean_estimated_bits": 816210.2608817173,
+      "mean_target_qber": 0.0157872318,
+      "mean_retunes": 0.0,
+      "mean_rollbacks": 0.0,
+      "isolated_runs": 0,
+      "target_isolated": 0,
+      "other_isolated": 0,
+      "hold_runs": 0,
+      "mean_target_delay": null
+    }
+  ],
+  "comparisons": [
+    {
+      "case": "alignment_0.020",
+      "normal_mean": 816210.2608817172,
+      "hybrid_mean": 790934.6323057766,
+      "pareto_mean": 790934.6323057766,
+      "pareto_improvement_percent": 0.0,
+      "hybrid_loss_vs_normal_percent": 3.0967055656267335,
+      "pareto_loss_vs_normal_percent": 3.0967055656267335
+    },
+    {
+      "case": "alignment_0.025",
+      "normal_mean": 816210.2608817172,
+      "hybrid_mean": 767337.9078002146,
+      "pareto_mean": 767337.9078002146,
+      "pareto_improvement_percent": 0.0,
+      "hybrid_loss_vs_normal_percent": 5.987716085400333,
+      "pareto_loss_vs_normal_percent": 5.987716085400333
+    },
+    {
+      "case": "alignment_0.030",
+      "normal_mean": 816210.2608817172,
+      "hybrid_mean": 744928.1403892598,
+      "pareto_mean": 749562.2529753768,
+      "pareto_improvement_percent": 0.6220885391301583,
+      "hybrid_loss_vs_normal_percent": 8.733303648431763,
+      "pareto_loss_vs_normal_percent": 8.165543990385935
+    },
+    {
+      "case": "alignment_0.035",
+      "normal_mean": 816210.2608817172,
+      "hybrid_mean": 731381.5703535218,
+      "pareto_mean": 733807.6500206884,
+      "pareto_improvement_percent": 0.33171189506373533,
+      "hybrid_loss_vs_normal_percent": 10.392994868327008,
+      "pareto_loss_vs_normal_percent": 10.095757773494876
+    },
+    {
+      "case": "alignment_0.040",
+      "normal_mean": 816210.2608817172,
+      "hybrid_mean": 713770.2096061851,
+      "pareto_mean": 719106.6477040288,
+      "pareto_improvement_percent": 0.7476409110416626,
+      "hybrid_loss_vs_normal_percent": 12.550693881852268,
+      "pareto_loss_vs_normal_percent": 11.896887092890935
+    },
+    {
+      "case": "alignment_0.045",
+      "normal_mean": 816210.2608817172,
+      "hybrid_mean": 705251.0198729627,
+      "pareto_mean": 705251.0198729627,
+      "pareto_improvement_percent": 0.0,
+      "hybrid_loss_vs_normal_percent": 13.594443285837881,
+      "pareto_loss_vs_normal_percent": 13.594443285837881
+    },
+    {
+      "case": "alignment_0.050",
+      "normal_mean": 816210.2608817172,
+      "hybrid_mean": 692238.0648894374,
+      "pareto_mean": 692238.0648894374,
+      "pareto_improvement_percent": 0.0,
+      "hybrid_loss_vs_normal_percent": 15.18875735014136,
+      "pareto_loss_vs_normal_percent": 15.18875735014136
+    }
+  ]
+}

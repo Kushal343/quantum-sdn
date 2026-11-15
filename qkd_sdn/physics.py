@@ -39,11 +39,12 @@ class Channel:
     raman_coefficient: float = 2e-4
     crosstalk_probability: float = 1e-5
     misalignment: float = 0.015
+    fwm_probability: float = 0.0
 
     def __post_init__(self):
         if min(self.distance_km, self.attenuation_db_km, self.extra_loss_db,
                self.dark_probability, self.traffic, self.raman_coefficient,
-               self.crosstalk_probability) < 0:
+               self.crosstalk_probability, self.fwm_probability) < 0:
             raise ValueError("Channel parameters must be nonnegative")
         if not 0 <= self.detector_efficiency <= 1 or not 0 <= self.misalignment <= 0.5:
             raise ValueError("Invalid efficiency or misalignment")
@@ -56,7 +57,7 @@ class Channel:
     @property
     def background(self):
         return min(1.0, self.dark_probability + self.traffic *
-                   self.raman_coefficient + self.crosstalk_probability)
+                   self.raman_coefficient + self.crosstalk_probability + self.fwm_probability)
 
 
 def gain_error(intensity, ch):

@@ -6,15 +6,17 @@ from .openflow import OpenFlowController
 
 
 def main():
-    from qkd_sdn.simulation import NetworkSimulator,conditions
-    from qkd_sdn.controller import Controller
+    from qkd_sdn.simulation import NetworkSimulator
+    from qkd_sdn.noise import Scenario
+    from qkd_sdn.policies import make_controller
     controller=OpenFlowController(runner=lambda *args,**kwargs:SimpleNamespace(stdout=''))
-    controller.initialize();qkd=Controller();sim=NetworkSimulator(42,100000,engine='binomial');rows=[]
+    controller.initialize();qkd=make_controller('hybrid',12)
+    sim=NetworkSimulator(42,100000,engine='binomial');rows=[]
+    disturbance=Scenario('intercept',42)
     for step in range(12):
         ts=[]
         for i in range(4):
-            ch,eve,tap=conditions('intercept',step,wavelength=i)
-            ts.append(sim.observe(ch,qkd.states[i]['config'],eve,tap))
+            ts.append(disturbance.observe(sim,qkd.states[i]['config'],step,i))
         decisions=qkd.decide(ts)
         for i,d in enumerate(decisions):
             state=controller.apply(i+1,d['action'])

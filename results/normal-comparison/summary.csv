@@ -1,0 +1,5 @@
+suite,case,policy,runs,mean_estimated_bits,mean_target_qber,mean_retunes,mean_rollbacks,isolated_runs,target_isolated,other_isolated,hold_runs,mean_target_delay
+matched_normal,normal,hybrid,50,816210.2608817173,0.01578723184939933,0.0,0.0,0,0,0,0,
+matched_normal,normal,pareto,50,816210.2608817173,0.01578723184939933,0.0,0.0,0,0,0,0,
+matched_normal,normal,pareto_front,50,816210.2608817173,0.01578723184939933,0.0,0.0,0,0,0,0,
+matched_normal,normal,uncertainty,50,816210.2608817173,0.01578723184939933,0.0,0.0,0,0,0,0,

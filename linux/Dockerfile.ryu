@@ -1,0 +1,13 @@
+FROM python:3.10-slim-bookworm
+ENV PYTHONUNBUFFERED=1 EVENTLET_NO_GREENDNS=yes
+RUN apt-get update && apt-get install -y --no-install-recommends git ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+WORKDIR /app
+COPY linux/requirements-ryu.txt /tmp/requirements-ryu.txt
+RUN python -m pip install --no-cache-dir -r /tmp/requirements-ryu.txt \
+    && python -m pip install --no-cache-dir --no-build-isolation --no-deps \
+       git+https://github.com/faucetsdn/ryu.git@d6cda4f427ff8de82b94c58aa826824a106014c2 \
+    && python -c "from ryu.app import wsgi; from ryu.ofproto import ofproto_v1_3_parser"
+COPY sdn /app/sdn
+ENV PYTHONPATH=/app
+CMD ["ryu-manager", "--ofp-listen-host", "127.0.0.1", "--ofp-tcp-listen-port", "6653", "--wsapi-host", "127.0.0.1", "--wsapi-port", "8080", "sdn.ryu_app"]

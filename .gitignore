@@ -5,3 +5,7 @@ __pycache__/
 .cache/
 .venv/
 .venv-sdn/
+.venv-linux/
+.env
+dist/
+archives/

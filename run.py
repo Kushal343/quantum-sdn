@@ -10,25 +10,27 @@ sys.path.insert(0, str(ROOT))
 os.environ.setdefault("MPLCONFIGDIR", str(ROOT / ".cache" / "matplotlib"))
 
 
-def run_network(scenario, steps, seed, pulses, policy="adaptive", predictor=None, engine="aer"):
-    from qkd_sdn.simulation import NetworkSimulator, conditions
-    from qkd_sdn.controller import Controller
+def run_network(scenario, steps, seed, pulses, policy="adaptive", predictor=None, engine="aer", calibration=None, scenario_source=None):
+    from qkd_sdn.simulation import NetworkSimulator
+    from qkd_sdn.noise import Scenario
+    from qkd_sdn.policies import make_controller
     from qkd_sdn.devices import SimulatedDevice
-    sim, control = NetworkSimulator(seed, pulses, engine=engine), Controller(policy, predictor)
+    sim = NetworkSimulator(seed, pulses, engine=engine)
+    control = make_controller(policy, steps, predictor, calibration)
+    disturbance = scenario_source if scenario_source is not None else Scenario(scenario, seed)
     devices = [SimulatedDevice() for _ in range(4)]
     rows = []
     for step in range(steps):
         telemetry = []
         for i in range(4):
-            ch, eve, tap = conditions(scenario, step, wavelength=i)
-            telemetry.append(sim.observe(ch, devices[i].config, eve, tap))
+            telemetry.append(disturbance.observe(sim, devices[i].config, step, i))
         decisions = control.decide(telemetry)
         for i, (t, decision) in enumerate(zip(telemetry, decisions)):
             devices[i].apply(control.states[i]["config"], control.states[i]["isolated"])
             blocked = devices[i].isolated or decision["action"] == "hold"
             # A previous interval's retune costs 25% of the following interval.
             previous = next((r for r in reversed(rows) if r["channel"] == f"lambda_{i+1}"), None)
-            availability = 0.75 if previous and previous["action"] == "retune" else 1.0
+            availability = 0.75 if previous and previous["action"] in ("retune", "rollback") else 1.0
             s = t["records"]["signal"]
             rows.append({"interval": step, "channel": f"lambda_{i+1}",
                          "config": t["config"].name, "next_config": control.states[i]["config"].name,
@@ -47,9 +49,13 @@ def run_network(scenario, steps, seed, pulses, policy="adaptive", predictor=None
 
 
 def main():
+    from qkd_sdn.noise import NOISE_SCENARIOS
+    from qkd_sdn.policies import POLICIES
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("mode", choices=["demo", "network", "train", "compare"], nargs="?", default="demo")
-    parser.add_argument("--scenario", default="intercept", choices=["normal", "loss", "noise", "intercept", "weak_intercept", "tap", "shared_noise"])
+    parser.add_argument("--scenario", default="intercept", choices=NOISE_SCENARIOS)
+    parser.add_argument("--policy", default="hybrid", choices=POLICIES)
+    parser.add_argument("--engine", default="aer", choices=['aer','binomial'])
     parser.add_argument("--steps", type=int, default=12)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--qubits", type=int, default=12000)
@@ -94,10 +100,10 @@ def main():
             (args.out/"ml_metrics.json").write_text(json.dumps(metrics, indent=2), encoding="utf-8")
             print(json.dumps(metrics, indent=2))
         if args.mode != "train":
-            policies = ["fixed", "aggregate", "per_wavelength", "adaptive"] if args.mode == "compare" else ["adaptive"]
+            policies = list(POLICIES) if args.mode == "compare" else [args.policy]
             summaries = []
             for policy in policies:
-                frame, summary = run_network(args.scenario, args.steps, args.seed, args.pulses, policy, predictor)
+                frame, summary = run_network(args.scenario, args.steps, args.seed, args.pulses, policy, predictor,args.engine)
                 frame.to_csv(args.out/f"{policy}_telemetry.csv", index=False)
                 summaries.append(summary)
                 print(json.dumps(summary, indent=2))

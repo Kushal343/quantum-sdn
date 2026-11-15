@@ -1,0 +1,15 @@
+[
+  {
+    "scenario": "misalignment",
+    "policy": "pareto",
+    "seed": 42,
+    "steps": 12,
+    "engine": "aer",
+    "pulses_per_wavelength_interval": 100000,
+    "aer_shots": 163939,
+    "estimated_released_bits": 23762.760862409967,
+    "isolation_events": 0,
+    "retunes": 1,
+    "scope": "asymptotic model estimates, not actual secure keys; simulated controller"
+  }
+]

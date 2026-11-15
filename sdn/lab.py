@@ -48,16 +48,23 @@ def selftest(net,c):
 
 def monitor(net,c,args):
     import time
-    from qkd_sdn.simulation import NetworkSimulator,conditions
-    from qkd_sdn.controller import Controller
+    from qkd_sdn.simulation import NetworkSimulator
+    from qkd_sdn.noise import Scenario
+    from qkd_sdn.policies import make_controller
     from .topology import connectivity
-    sim=NetworkSimulator(args.seed,args.pulses,engine=args.engine);qkd=Controller()
+    sim=NetworkSimulator(args.seed,args.pulses,engine=args.engine)
+    predictor=None
+    ml_metrics=None
+    if args.ml:
+        from qkd_sdn.ml import train
+        predictor,ml_metrics=train(args.seed)
+    qkd=make_controller(args.policy,args.steps,predictor)
+    disturbance=Scenario(args.scenario,args.seed)
     rows=[]
     for step in range(args.steps):
         telemetry=[]
         for i in range(4):
-            ch,eve,tap=conditions(args.scenario,step,wavelength=i)
-            telemetry.append(sim.observe(ch,qkd.states[i]['config'],eve,tap))
+            telemetry.append(disturbance.observe(sim,qkd.states[i]['config'],step,i))
         decisions=qkd.decide(telemetry)
         for i,d in enumerate(decisions):c.apply(i+1,d['action'])
         probes=connectivity(net)
@@ -69,14 +76,20 @@ def monitor(net,c,args):
                      forwarding=c.states[i+1],ping_ok=probes[f'lambda_{i+1}'])
             rows.append(row);print(json.dumps(row),flush=True)
         time.sleep(args.interval)
-    return dict(rows=rows,flows=c.snapshot(),engine=args.engine,
+    return dict(rows=rows,flows=c.snapshot(),engine=args.engine,policy=args.policy,ml_metrics=ml_metrics,
         scope='QKD telemetry is simulated; ICMP probes traverse actual Mininet namespaces and OVS flows')
 
 
 def main():
+    from qkd_sdn.noise import NOISE_SCENARIOS
+    from qkd_sdn.policies import POLICIES
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--mode',choices=['selftest','monitor','cli'],default='selftest')
-    p.add_argument('--scenario',choices=['normal','intercept','weak_intercept','loss','noise','tap','shared_noise'],default='intercept')
+    p.add_argument('--scenario',choices=NOISE_SCENARIOS,default='intercept')
+    p.add_argument('--policy',choices=POLICIES,default='hybrid')
+    p.add_argument('--controller',choices=['ryu','ovs'],default='ryu')
+    p.add_argument('--controller-port',type=int,default=6653)
+    p.add_argument('--ml',action='store_true',help='Optional analytical ML surrogate for retuning proposals')
     p.add_argument('--engine',choices=['aer','binomial'],default='binomial')
     p.add_argument('--steps',type=int,default=12);p.add_argument('--seed',type=int,default=42)
     p.add_argument('--pulses',type=int,default=100000);p.add_argument('--interval',type=float,default=0)
@@ -86,8 +99,12 @@ def main():
     if args.steps<1 or args.pulses<1000 or args.interval<0:p.error('Invalid experiment settings')
     preflight()
     from .topology import create_network
-    net=create_network();c=OpenFlowController()
+    net=create_network(args.controller,args.controller_port)
     try:
+        if args.controller=='ryu':
+            from .ryu_client import RyuClient
+            c=RyuClient()
+        else:c=OpenFlowController()
         c.initialize()
         if args.mode=='selftest':report=selftest(net,c)
         elif args.mode=='monitor':report=monitor(net,c,args)

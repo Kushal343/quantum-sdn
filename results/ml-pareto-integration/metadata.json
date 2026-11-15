@@ -1,0 +1,16 @@
+{
+  "seeds": 20,
+  "steps": 40,
+  "pulses_per_channel_interval": 1000000,
+  "runtime_seed_start": 11200,
+  "calibration_seed_start": 21200,
+  "training_seeds": [
+    42,
+    43,
+    44
+  ],
+  "distance_km": 24,
+  "cache": "Exact channel/config/clock memoization, fresh per run; model training excluded from online wall time",
+  "scope": "ML proposes candidates; independent calibration and analytical benefit gate retained. Not a model-free ML controller.",
+  "uncertainty": "Descriptive paired seed bootstrap, no multiple-comparison adjustment; three forests share analytical teacher"
+}

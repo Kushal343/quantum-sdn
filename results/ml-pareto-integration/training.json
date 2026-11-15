@@ -1,0 +1,35 @@
+[
+  {
+    "training_seed": 42,
+    "training_seconds": 4.160741700005019,
+    "training_source": "analytical asymptotic teacher, not Qiskit shot labels",
+    "split": "held-out channel conditions, all candidates grouped",
+    "train_conditions": 320,
+    "test_conditions": 80,
+    "qber_mae": 0.003924675222506737,
+    "secret_fraction_mae": 0.0001357947309255052,
+    "mean_relative_candidate_regret": 0.02700552267173823
+  },
+  {
+    "training_seed": 43,
+    "training_seconds": 4.056583700003102,
+    "training_source": "analytical asymptotic teacher, not Qiskit shot labels",
+    "split": "held-out channel conditions, all candidates grouped",
+    "train_conditions": 320,
+    "test_conditions": 80,
+    "qber_mae": 0.003994623158837714,
+    "secret_fraction_mae": 0.00015583221600067447,
+    "mean_relative_candidate_regret": 0.01680008409970102
+  },
+  {
+    "training_seed": 44,
+    "training_seconds": 4.050963799993042,
+    "training_source": "analytical asymptotic teacher, not Qiskit shot labels",
+    "split": "held-out channel conditions, all candidates grouped",
+    "train_conditions": 320,
+    "test_conditions": 80,
+    "qber_mae": 0.00478406137754046,
+    "secret_fraction_mae": 0.00010589061556071365,
+    "mean_relative_candidate_regret": 0.00711720165013435
+  }
+]

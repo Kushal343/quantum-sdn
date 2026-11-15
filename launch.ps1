@@ -12,6 +12,7 @@ Push-Location $projectRoot
 try {
     $env:MPLCONFIGDIR = Join-Path $projectRoot '.cache\matplotlib'
     $env:STREAMLIT_BROWSER_GATHER_USAGE_STATS = 'false'
+    $env:PYTHONDONTWRITEBYTECODE = '1'
     if ($Task -eq 'dashboard') {
         & $pythonRunner -m streamlit run dashboard.py --server.address 127.0.0.1
     } elseif ($Task -eq 'test') {

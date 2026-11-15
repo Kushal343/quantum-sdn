@@ -1,6 +1,6 @@
 import pandas as pd
 import pytest
-from evaluate import evaluate
+from experiments.evaluate import evaluate
 from qkd_sdn.devices import SimulatedDevice
 from qkd_sdn.physics import CANDIDATES
 

@@ -1,6 +1,6 @@
 # Mininet and OpenFlow SDN lab
 
-This folder adds a real packet-network emulation path. It is distinct from the existing QKD-only simulation. Eight Mininet hosts attach to two Open vSwitch bridges, `qkds1` and `qkds2`. The central Python flow controller programs both using **OpenFlow 1.3** through `ovs-ofctl` management connections. It does not require Ryu, a learning switch, or a remote controller process.
+This folder provides two OpenFlow 1.3 backends for the same two-switch, four-pair Mininet topology. **Ryu is now the default**: follow [the Linux deployment guide](../linux/README.md) to run its controller and local decision API. `ryu_app.py` handles OpenFlow sessions, `ryu_core.py` builds VLAN/isolation rules, and `ryu_client.py` carries acknowledged QKD decisions. The earlier `ovs-ofctl` backend remains available with `--controller ovs`; the commands below describe that backend.
 
 ```text
  a1 -- port 1                    port 1 -- b1    channel 1 / VLAN 101
@@ -60,7 +60,7 @@ No physical network interfaces are attached. Live execution requires root to cre
 ## 1. Verify actual switching first
 
 ```bash
-sudo .venv-sdn/bin/python -m sdn.lab --mode selftest
+sudo .venv-sdn/bin/python -m sdn.lab --controller ovs --mode selftest
 ```
 
 The self-test verifies:
@@ -76,7 +76,7 @@ Failures raise an error. Success saves measurements and flow tables in `results/
 ## 2. Run QKD-controlled OpenFlow isolation
 
 ```bash
-sudo .venv-sdn/bin/python -m sdn.lab --mode monitor --scenario intercept --steps 12 --verify
+sudo .venv-sdn/bin/python -m sdn.lab --controller ovs --mode monitor --scenario intercept --steps 12 --verify
 ```
 
 At each interval, the existing `qkd_sdn.controller.Controller` reads simulated telemetry. Its hold/isolation decisions are applied to the OVS switches, then all host pairs are probed with actual ICMP packets. `--verify` requires measured reachability to agree with the intended forwarding state. Results and flow tables are saved in `results/sdn/monitor.json`.
@@ -86,7 +86,7 @@ The default count engine is fast and labelled `binomial`. Use `--engine aer` for
 ## 3. Inspect the network interactively
 
 ```bash
-sudo .venv-sdn/bin/python -m sdn.lab --mode cli
+sudo .venv-sdn/bin/python -m sdn.lab --controller ovs --mode cli
 ```
 
 Inside the Mininet prompt:

@@ -1,0 +1,35 @@
+name: Linux Mininet Ryu integration
+on:
+  workflow_dispatch:
+  push:
+    paths: ['sdn/**', 'linux/**', 'qkd_sdn/**', 'experiments/**', 'tools/**', 'tests/**', 'run.py', 'requirements.txt', 'pyproject.toml', '.github/workflows/linux-sdn.yml']
+  pull_request:
+    paths: ['sdn/**', 'linux/**', 'qkd_sdn/**', 'experiments/**', 'tools/**', 'tests/**', 'run.py', 'requirements.txt', 'pyproject.toml', '.github/workflows/linux-sdn.yml']
+jobs:
+  forwarding:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Linux dependencies and build controller
+        run: bash linux/setup.sh
+      - name: Verify simulation and organized imports
+        run: |
+          .venv-linux/bin/python -m pytest tests -q
+          .venv-linux/bin/python run.py network --policy pareto --engine binomial --scenario normal --steps 12 --pulses 100000 --out results/linux-simulation
+      - name: Run self-test and end-to-end monitoring
+        run: |
+          set -euo pipefail
+          export QKD_SDN_TOKEN="$(python3 -c 'import secrets; print(secrets.token_hex(32))')"
+          sudo docker run -d --name qkd-ryu --network host -e QKD_SDN_TOKEN="$QKD_SDN_TOKEN" qkd-ryu:local
+          sudo env QKD_SDN_TOKEN="$QKD_SDN_TOKEN" .venv-linux/bin/python -m sdn.lab --controller ryu --mode selftest --out results/linux-selftest
+          sudo docker restart qkd-ryu
+          sudo env QKD_SDN_TOKEN="$QKD_SDN_TOKEN" .venv-linux/bin/python -m sdn.lab --controller ryu --mode monitor --policy pareto --scenario intercept --steps 18 --verify --out results/linux-monitor
+      - name: Controller logs
+        if: always()
+        run: sudo docker logs qkd-ryu || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: linux-sdn-results
+          path: results/linux-*/

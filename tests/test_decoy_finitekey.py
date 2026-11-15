@@ -3,7 +3,7 @@ import numpy as np
 import pytest
 from qkd_sdn.decoy_finitekey import budget
 from qkd_sdn.physics import Channel,gain_error
-from decoy_finite_demo import counts
+from experiments.decoy_finite_demo import counts
 
 
 def test_small_samples_fail_closed_and_large_block_can_produce_bound():

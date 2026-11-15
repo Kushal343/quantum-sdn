@@ -1,0 +1,290 @@
+[
+  {
+    "interval": 6,
+    "forwarding_eta": 0.13007215122409754,
+    "classes": {
+      "signal": {
+        "vacuum_emissions": 411100,
+        "blocked_single_photons": 24459,
+        "split_multiphoton_pulses": 9058,
+        "tagged_sifted_signal_clicks": 693
+      },
+      "decoy": {
+        "vacuum_emissions": 177504,
+        "blocked_single_photons": 2167,
+        "split_multiphoton_pulses": 145,
+        "tagged_sifted_signal_clicks": 12
+      },
+      "vacuum": {
+        "vacuum_emissions": 50180,
+        "blocked_single_photons": 0,
+        "split_multiphoton_pulses": 0,
+        "tagged_sifted_signal_clicks": 0
+      }
+    }
+  },
+  {
+    "interval": 7,
+    "forwarding_eta": 0.13007215122409754,
+    "classes": {
+      "signal": {
+        "vacuum_emissions": 411435,
+        "blocked_single_photons": 24668,
+        "split_multiphoton_pulses": 9221,
+        "tagged_sifted_signal_clicks": 688
+      },
+      "decoy": {
+        "vacuum_emissions": 176942,
+        "blocked_single_photons": 2133,
+        "split_multiphoton_pulses": 140,
+        "tagged_sifted_signal_clicks": 6
+      },
+      "vacuum": {
+        "vacuum_emissions": 49513,
+        "blocked_single_photons": 0,
+        "split_multiphoton_pulses": 0,
+        "tagged_sifted_signal_clicks": 0
+      }
+    }
+  },
+  {
+    "interval": 8,
+    "forwarding_eta": 0.13007215122409754,
+    "classes": {
+      "signal": {
+        "vacuum_emissions": 411368,
+        "blocked_single_photons": 24541,
+        "split_multiphoton_pulses": 9278,
+        "tagged_sifted_signal_clicks": 673
+      },
+      "decoy": {
+        "vacuum_emissions": 177365,
+        "blocked_single_photons": 2084,
+        "split_multiphoton_pulses": 143,
+        "tagged_sifted_signal_clicks": 11
+      },
+      "vacuum": {
+        "vacuum_emissions": 50270,
+        "blocked_single_photons": 0,
+        "split_multiphoton_pulses": 0,
+        "tagged_sifted_signal_clicks": 0
+      }
+    }
+  },
+  {
+    "interval": 9,
+    "forwarding_eta": 0.13007215122409754,
+    "classes": {
+      "signal": {
+        "vacuum_emissions": 411408,
+        "blocked_single_photons": 25088,
+        "split_multiphoton_pulses": 9135,
+        "tagged_sifted_signal_clicks": 713
+      },
+      "decoy": {
+        "vacuum_emissions": 177730,
+        "blocked_single_photons": 2239,
+        "split_multiphoton_pulses": 121,
+        "tagged_sifted_signal_clicks": 6
+      },
+      "vacuum": {
+        "vacuum_emissions": 49475,
+        "blocked_single_photons": 0,
+        "split_multiphoton_pulses": 0,
+        "tagged_sifted_signal_clicks": 0
+      }
+    }
+  },
+  {
+    "interval": 10,
+    "forwarding_eta": 0.13007215122409754,
+    "classes": {
+      "signal": {
+        "vacuum_emissions": 411491,
+        "blocked_single_photons": 24542,
+        "split_multiphoton_pulses": 9154,
+        "tagged_sifted_signal_clicks": 719
+      },
+      "decoy": {
+        "vacuum_emissions": 177533,
+        "blocked_single_photons": 2157,
+        "split_multiphoton_pulses": 144,
+        "tagged_sifted_signal_clicks": 12
+      },
+      "vacuum": {
+        "vacuum_emissions": 50106,
+        "blocked_single_photons": 0,
+        "split_multiphoton_pulses": 0,
+        "tagged_sifted_signal_clicks": 0
+      }
+    }
+  },
+  {
+    "interval": 11,
+    "forwarding_eta": 0.13007215122409754,
+    "classes": {
+      "signal": {
+        "vacuum_emissions": 410960,
+        "blocked_single_photons": 24895,
+        "split_multiphoton_pulses": 9247,
+        "tagged_sifted_signal_clicks": 745
+      },
+      "decoy": {
+        "vacuum_emissions": 177622,
+        "blocked_single_photons": 2133,
+        "split_multiphoton_pulses": 141,
+        "tagged_sifted_signal_clicks": 8
+      },
+      "vacuum": {
+        "vacuum_emissions": 50014,
+        "blocked_single_photons": 0,
+        "split_multiphoton_pulses": 0,
+        "tagged_sifted_signal_clicks": 0
+      }
+    }
+  },
+  {
+    "interval": 12,
+    "forwarding_eta": 0.13007215122409754,
+    "classes": {
+      "signal": {
+        "vacuum_emissions": 411706,
+        "blocked_single_photons": 24677,
+        "split_multiphoton_pulses": 9062,
+        "tagged_sifted_signal_clicks": 710
+      },
+      "decoy": {
+        "vacuum_emissions": 177355,
+        "blocked_single_photons": 2160,
+        "split_multiphoton_pulses": 136,
+        "tagged_sifted_signal_clicks": 12
+      },
+      "vacuum": {
+        "vacuum_emissions": 49995,
+        "blocked_single_photons": 0,
+        "split_multiphoton_pulses": 0,
+        "tagged_sifted_signal_clicks": 0
+      }
+    }
+  },
+  {
+    "interval": 13,
+    "forwarding_eta": 0.13007215122409754,
+    "classes": {
+      "signal": {
+        "vacuum_emissions": 411847,
+        "blocked_single_photons": 24783,
+        "split_multiphoton_pulses": 9064,
+        "tagged_sifted_signal_clicks": 717
+      },
+      "decoy": {
+        "vacuum_emissions": 177291,
+        "blocked_single_photons": 2046,
+        "split_multiphoton_pulses": 140,
+        "tagged_sifted_signal_clicks": 8
+      },
+      "vacuum": {
+        "vacuum_emissions": 50299,
+        "blocked_single_photons": 0,
+        "split_multiphoton_pulses": 0,
+        "tagged_sifted_signal_clicks": 0
+      }
+    }
+  },
+  {
+    "interval": 14,
+    "forwarding_eta": 0.13007215122409754,
+    "classes": {
+      "signal": {
+        "vacuum_emissions": 411953,
+        "blocked_single_photons": 24641,
+        "split_multiphoton_pulses": 9027,
+        "tagged_sifted_signal_clicks": 660
+      },
+      "decoy": {
+        "vacuum_emissions": 178287,
+        "blocked_single_photons": 2089,
+        "split_multiphoton_pulses": 121,
+        "tagged_sifted_signal_clicks": 12
+      },
+      "vacuum": {
+        "vacuum_emissions": 49824,
+        "blocked_single_photons": 0,
+        "split_multiphoton_pulses": 0,
+        "tagged_sifted_signal_clicks": 0
+      }
+    }
+  },
+  {
+    "interval": 15,
+    "forwarding_eta": 0.13007215122409754,
+    "classes": {
+      "signal": {
+        "vacuum_emissions": 411782,
+        "blocked_single_photons": 24681,
+        "split_multiphoton_pulses": 9125,
+        "tagged_sifted_signal_clicks": 659
+      },
+      "decoy": {
+        "vacuum_emissions": 177077,
+        "blocked_single_photons": 2191,
+        "split_multiphoton_pulses": 135,
+        "tagged_sifted_signal_clicks": 9
+      },
+      "vacuum": {
+        "vacuum_emissions": 50191,
+        "blocked_single_photons": 0,
+        "split_multiphoton_pulses": 0,
+        "tagged_sifted_signal_clicks": 0
+      }
+    }
+  },
+  {
+    "interval": 16,
+    "forwarding_eta": 0.13007215122409754,
+    "classes": {
+      "signal": {
+        "vacuum_emissions": 410237,
+        "blocked_single_photons": 24674,
+        "split_multiphoton_pulses": 9094,
+        "tagged_sifted_signal_clicks": 740
+      },
+      "decoy": {
+        "vacuum_emissions": 177754,
+        "blocked_single_photons": 2158,
+        "split_multiphoton_pulses": 129,
+        "tagged_sifted_signal_clicks": 11
+      },
+      "vacuum": {
+        "vacuum_emissions": 50244,
+        "blocked_single_photons": 0,
+        "split_multiphoton_pulses": 0,
+        "tagged_sifted_signal_clicks": 0
+      }
+    }
+  },
+  {
+    "interval": 17,
+    "forwarding_eta": 0.13007215122409754,
+    "classes": {
+      "signal": {
+        "vacuum_emissions": 411774,
+        "blocked_single_photons": 24817,
+        "split_multiphoton_pulses": 9349,
+        "tagged_sifted_signal_clicks": 743
+      },
+      "decoy": {
+        "vacuum_emissions": 176953,
+        "blocked_single_photons": 2075,
+        "split_multiphoton_pulses": 130,
+        "tagged_sifted_signal_clicks": 13
+      },
+      "vacuum": {
+        "vacuum_emissions": 50088,
+        "blocked_single_photons": 0,
+        "split_multiphoton_pulses": 0,
+        "tagged_sifted_signal_clicks": 0
+      }
+    }
+  }
+]

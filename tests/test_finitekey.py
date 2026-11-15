@@ -3,7 +3,7 @@ import numpy as np
 import pytest
 from qkd_sdn.finitekey import key_budget
 from qkd_sdn.reconciliation import graph,syndrome,decode
-from distributed_demo import encode,verify
+from experiments.distributed_demo import encode,verify
 
 
 def test_budget_monotonicity_and_abort():

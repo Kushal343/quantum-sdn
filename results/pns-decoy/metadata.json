@@ -1,0 +1,13 @@
+{
+  "seeds": 20,
+  "runtime_seed_start": 13200,
+  "calibration_seed_start": 23200,
+  "steps": 18,
+  "onset": 6,
+  "pulses_per_channel_interval": 1000000,
+  "distance_km": 40,
+  "model": "Poisson photon-number classes: block attacked n=1, split one from attacked n>=2, forward remaining n-1. No encoding error added.",
+  "compensation": "One common forwarding efficiency solves signal-intensity gain matching, bounded by Bob detector efficiency; same photon-number law applies to decoy pulses. Eve replaces some channel loss.",
+  "ablation": "Signal-only and full-decoy share per-feature threshold and finite-horizon budget; signal-only leaves unused budget unspent. No retuning in these uncertainty-monitor arms.",
+  "scope": "Ideal PNS count model, not a coherent quantum memory simulation, universal PNS detector or attack attribution. Latent photon labels never enter controller telemetry."
+}
